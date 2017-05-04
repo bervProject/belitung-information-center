@@ -3,7 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-list',
-  templateUrl: 'list.html'
+  templateUrl: 'history.html'
 })
 export class HistoryPage {
   selectedItem: any;

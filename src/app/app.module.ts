@@ -9,6 +9,9 @@ import { GalleryPage } from '../pages/gallery/gallery';
 import { AccessPage } from '../pages/access/access';
 import { AgendaPage } from '../pages/agenda/agenda';
 import { WeatherPage } from '../pages/weather/weather';
+import { FoodPage } from '../pages/food/food';
+import { HistoryPage } from '../pages/history/history';
+import { HotelPage } from '../pages/hotel/hotel';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,6 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AccessPage,
     AgendaPage,
     WeatherPage,
+    FoodPage,
+    HistoryPage,
+    HotelPage,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AccessPage,
     AgendaPage,
     WeatherPage,
+    FoodPage,
+    HistoryPage,
+    HotelPage,
   ],
   providers: [
     StatusBar,

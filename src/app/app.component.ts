@@ -9,6 +9,9 @@ import { GalleryPage } from '../pages/gallery/gallery';
 import { AccessPage } from '../pages/access/access';
 import { AgendaPage } from '../pages/agenda/agenda';
 import { WeatherPage } from '../pages/weather/weather';
+import { FoodPage } from '../pages/food/food';
+import { HistoryPage } from '../pages/history/history';
+import { HotelPage } from '../pages/hotel/hotel';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +33,10 @@ export class MyApp {
       { title: 'Weather', component: WeatherPage },
       { title: 'Gallery', component: GalleryPage },
       { title: 'Agenda', component: AgendaPage },
-
+      { title: 'Access to Belitung', component: AccessPage },
+      { title: 'Food Court / Inn', component: FoodPage },
+      { title: 'History', component: HistoryPage },
+      { title: 'Hotel / Guest House', component: HotelPage },
     ];
 
   }
