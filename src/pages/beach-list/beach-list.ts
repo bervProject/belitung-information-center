@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { Beach } from '../../models/beach';
 import { BeachList } from '../../providers/beach-list';
 
@@ -9,7 +9,7 @@ import { BeachList } from '../../providers/beach-list';
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
+
 @Component({
   selector: 'page-beach-list',
   templateUrl: 'beach-list.html',
