@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { BeachListPage } from '../beach-list/beach-list';
 
 @Component({
   selector: 'page-list',
@@ -28,8 +29,8 @@ export class VacationPage {
 
   itemTapped(event, item) {
     // That's right, we're pushing to ourselves!
-    this.navCtrl.push(VacationPage, {
-      item: item
-    });
+    if(item.title == "Beach") {
+      this.navCtrl.push(BeachListPage);
+    }
   }
 }
