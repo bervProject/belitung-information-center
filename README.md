@@ -6,11 +6,11 @@ Using Ionic Framework for Mobile Application, Provide Information of Belitung Is
 
 ## Home Page
 
-![Home Page](screenshot/homepage.png)
+![Home Page](screenshot/home.png)
 
 ## Menu
 
-![Menu](screenshot/menu.png)
+![Menu](screenshot/home2.png)
 
 ## Example Page (Vacation)
 
