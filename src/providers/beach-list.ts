@@ -14,7 +14,7 @@ import { Beach } from '../models/beach';
 @Injectable()
 export class BeachList {
 
-  url = 'https://radiant-dusk-86930.herokuapp.com/getBeachList';
+  url = 'https://belitung-information-center.herokuapp.com/getBeachList';
 
   constructor(public http: Http) {
   }

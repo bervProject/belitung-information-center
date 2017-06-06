@@ -1,8 +1,8 @@
 {
-  "name": "ionic-hello-world",
-  "version": "0.0.0",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "Belitung Information Center",
+  "version": "0.0.1",
+  "author": "Bervianto Leo P",
+  "homepage": "berviantoleo.hol.es",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -42,5 +42,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "belitung-information-center: An Ionic project"
+  "description": "Belitung Information Center: Center information for Belitung Island."
 }
