@@ -1,5 +1,7 @@
 # Belitung Information Center
 
+![Build Travis](https://travis-ci.org/berviantoleo/belitung-information-center.svg?branch=master)
+
 Using Ionic Framework for Mobile Application, Provide Information of Belitung Island.
 
 # Screen
