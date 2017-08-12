@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Belitung Information Center",
+  "short_name": "bic",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{

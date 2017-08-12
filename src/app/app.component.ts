@@ -36,7 +36,7 @@ export class MyApp {
       { title: 'Access to Belitung', component: AccessPage },
       { title: 'Food Court / Inn', component: FoodPage },
       { title: 'History', component: HistoryPage },
-      { title: 'Hotel / Guest House', component: HotelPage },
+      { title: 'Hotel / Guest House', component: HotelPage }
     ];
 
   }
