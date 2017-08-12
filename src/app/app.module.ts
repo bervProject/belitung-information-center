@@ -3,10 +3,9 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { HttpModule } from '@angular/http';
 
-import { MyApp } from './app.component';
-
 import { BeachList } from '../providers/beach-list';
 
+import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { VacationPage } from '../pages/vacation/vacation';
 import { GalleryPage } from '../pages/gallery/gallery';
@@ -33,7 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FoodPage,
     HistoryPage,
     HotelPage,
-    BeachListPage,
+    BeachListPage
   ],
   imports: [
     BrowserModule,
@@ -52,7 +51,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FoodPage,
     HistoryPage,
     HotelPage,
-    BeachListPage,
+    BeachListPage
   ],
   providers: [
     StatusBar,
