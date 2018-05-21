@@ -1,5 +1,8 @@
 {
   "name": "BelitungInformationCenter",
   "app_id": "3fea44b8",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
