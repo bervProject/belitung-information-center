@@ -1,0 +1,7 @@
+build:
+  languages:
+    - node
+  post:
+    - npm run build
+run:
+  web: npm run start
