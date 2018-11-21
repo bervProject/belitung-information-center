@@ -1,7 +1,9 @@
+setup:
+  config: {}
 build:
   languages:
-    - node
+    - nodejs
   post:
     - npm run build
 run:
-  web: npm run start
+  web: npm start
