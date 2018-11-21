@@ -13,15 +13,12 @@ addons:
     - openjdk-7-jdk
     - lib32stdc++6
     - lib32z1
-    
+
 env:
   CXX=g++-4.8
 
 install:
   - npm install -g gulp bower cordova ionic typescript
-  - npm install --save @ionic/cli-plugin-ionic-angular@latest
-  - npm install --save @ionic/cli-plugin-cordova@latest
-  - npm install --save @ionic/app-scripts@latest
   - npm install --save @ionic/cloud-angular
   - npm install
   - bower update
