@@ -1,6 +1,5 @@
 # Belitung Information Center
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bervProject/belitung-information-center.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/bervProject/belitung-information-center.svg?branch=master)](https://travis-ci.org/bervProject/belitung-information-center)
 
 Using Ionic Framework for Mobile Application, Provide Information of Belitung Island.
