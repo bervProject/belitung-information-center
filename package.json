@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "^3.2.4",
-    "ionic": "^5.2.5",
+    "ionic": "^5.2.6",
     "typescript": "^3.5.3"
   },
   "description": "Belitung Information Center: Center information for Belitung Island.",
