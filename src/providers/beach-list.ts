@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
-import 'rxjs/add/operator/map';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { catchError, tap } from 'rxjs/operators';
 
 import { Beach } from '../models/beach';
 
@@ -14,14 +14,27 @@ import { Beach } from '../models/beach';
 @Injectable()
 export class BeachList {
 
-  url = 'https://belitung-information-center.herokuapp.com/getBeachList';
+  private url = 'https://belitung-information-center.herokuapp.com/getBeachList';
 
-  constructor(public http: Http) {
+  constructor(private http: HttpClient) {
   }
 
   load(): Observable<Beach[]> {
-    return this.http.get(this.url).map(res => <Beach[]>res.json());
+    return this.http.get<Beach[]>(this.url).pipe(
+      tap(data => console.log('All: ' + JSON.stringify(data))),
+      catchError(this.handleError));
   }
 
+  private handleError(err: HttpErrorResponse) {
+
+    let errorMessage = '';
+    if (err.error instanceof ErrorEvent) {
+      errorMessage = `An error occurred: ${err.error.message}`;
+    } else {
+      errorMessage = `Server returned code: ${err.status}, error message is: ${err.message}`;
+    }
+    console.error(errorMessage);
+    return throwError(errorMessage);
+  }
 
 }

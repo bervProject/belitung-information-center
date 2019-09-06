@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
 import { Beach } from '../../models/beach';
 import { BeachList } from '../../providers/beach-list';
 
@@ -12,12 +11,12 @@ import { BeachList } from '../../providers/beach-list';
 
 @Component({
   selector: 'page-beach-list',
-  templateUrl: 'beach-list.html',
+  templateUrl: 'beach-list.page.html',
 })
 export class BeachListPage {
   beachs: Beach[]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private beachList: BeachList) {
+  constructor(private beachList: BeachList) {
     beachList.load().subscribe(beachs => {
       this.beachs = beachs;
     })

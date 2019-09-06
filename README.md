@@ -6,24 +6,28 @@
 
 Using Ionic Framework for Mobile Application, Provide Information of Belitung Island.
 
-# Screen
+## Screen
 
-## Home Page
+### Home Page
 
 ![Home Page](screenshot/home.png)
 
-## Menu
+### Menu
 
 ![Menu](screenshot/home2.png)
 
-## Example Page (Vacation)
+### Example Page (Vacation)
 
 ![Vacation Page](screenshot/vacation.png)
 
-## Example Page (List of Beach)
+### Example Page (List of Beach)
 
 ![List of Beach](screenshot/beach.png)
 
-# About
+## About
 
 Created by : Bervianto Leo Pratama
+
+## LICENSE
+
+MIT

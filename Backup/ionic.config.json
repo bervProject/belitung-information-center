@@ -1,8 +1,8 @@
 {
-  "name": "belitung-information-center",
+  "name": "BelitungInformationCenter",
   "integrations": {
     "cordova": {}
   },
-  "type": "angular",
+  "type": "ionic-angular",
   "id": "3fea44b8"
 }
