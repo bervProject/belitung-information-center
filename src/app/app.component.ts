@@ -22,8 +22,18 @@ export class AppComponent {
       icon: 'list'
     },
     {
-      title: 'Beach',
-      url: '/beach',
+      title: 'Vacation',
+      url: '/vacation',
+      icon: 'list'
+    },
+    {
+      title: 'Food',
+      url: '/food',
+      icon: 'list'
+    },
+    {
+      title: 'Hotel',
+      url: '/hotel',
       icon: 'list'
     }
   ];

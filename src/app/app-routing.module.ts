@@ -18,6 +18,30 @@ const routes: Routes = [
   {
     path: 'beach',
     loadChildren: () => import('./beach-list/beach-list.module').then(m => m.BeachListPageModule)
+  },
+  {
+    path: 'food',
+    loadChildren: () => import('./food/food.module').then(m => m.FoodPageModule)
+  },
+  {
+    path: 'gallery',
+    loadChildren: () => import('./gallery/gallery.module').then(m => m.GalleryPageModule)
+  },
+  {
+    path: 'history',
+    loadChildren: () => import('./history/history.module').then(m => m.HistoryPageModule)
+  },
+  {
+    path: 'hotel',
+    loadChildren: () => import('./hotel/hotel.module').then(m => m.HotelPageModule)
+  },
+  {
+    path: 'agenda',
+    loadChildren: () => import('./agenda/agenda.module').then(m => m.AgendaPageModule)
+  },
+  {
+    path: 'vacation',
+    loadChildren: () => import('./vacation/vacation.module').then(m => m.VacationPageModule)
   }
 ];
 
