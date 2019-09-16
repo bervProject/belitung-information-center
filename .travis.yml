@@ -37,4 +37,5 @@ script:
 # - chmod +x Build.bat
 # - ./Build.bat
 # - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD --deploy=dev
+- npm test
 - npm run build
