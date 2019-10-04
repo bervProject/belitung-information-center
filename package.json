@@ -43,7 +43,7 @@
     "@ionic/angular-toolkit": "~2.0.0",
     "@types/jasmine": "~3.4.1",
     "@types/jasminewd2": "~2.0.7",
-    "@types/node": "~12.7.8",
+    "@types/node": "~12.7.11",
     "codelyzer": "^5.1.2",
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-splashscreen": "^5.0.3",
