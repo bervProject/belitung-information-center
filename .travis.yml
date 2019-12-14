@@ -18,7 +18,7 @@ env:
   CXX=g++-4.8
 
 install:
-  - npm install
+  - yarn
 
 # before_script:
 #  - wget http://dl.google.com/android/android-sdk_r24.4-linux.tgz
@@ -36,4 +36,4 @@ script:
 # - chmod +x Build.bat
 # - ./Build.bat
 # - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD --deploy=dev
-- npm run build
+- yarn build
