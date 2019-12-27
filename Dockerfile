@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn
 COPY . .
-RUN yarn build
+RUN yarn build --prod
 
 FROM nginx:stable-alpine as run
 COPY --from=build /app/default.conf.template /etc/nginx/conf.d/default.conf.template
