@@ -860,10 +860,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/core@^5.18.0":
-  version "5.18.0"
-  resolved "https://registry.npmjs.org/@ionic-native/core/-/core-5.18.0.tgz#8d9fafa4af1129c3fb433dc2db567fbb791ef38a"
-  integrity sha512-c4UN2h90kJ6s0bHFDe73nDPa0ydR5zhzV1oRxdsA7QItmeeZYgizexL01Lvpg01UaR9JHqBg1KHQJuT8l5k01g==
+"@ionic-native/core@^5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.19.0.tgz#5cd1c15c616dc9d35b7e78a3a366e52fc3ab2903"
+  integrity sha512-NLlMHYq2ruTw6IML+w4vkTBZAKZB9Xq6Z8E08KmzlHGzFAXjHlGz6tlYUhwKMEpRHkcTZry/RH9kbeO+um4unQ==
   dependencies:
     "@types/cordova" latest
 
