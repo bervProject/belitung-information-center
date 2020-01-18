@@ -892,10 +892,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic/angular-toolkit@~2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@ionic/angular-toolkit/-/angular-toolkit-2.1.1.tgz#5d9bf6dfede6de97d671bf7db4f843e45794c45e"
-  integrity sha512-NCwllK4daQH1uv5OUCSzZz0BxMsZp2ZjH/ZW16OzQmYkXr1AyRtPDS9UmfCoCzIUHq2FC0tp6DWt/NHAY4RH4Q==
+"@ionic/angular-toolkit@~2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-2.1.2.tgz#4fe540af0d372d7731586ea33b829e85724a8f9b"
+  integrity sha512-TLb/wQMdhgUe4X98TZgiue/6VqEFPiXkg3a0diVTwtrsHj2cWNXUaIlQtnEqxBhyml81mrpkSgAoUFH3JJfaXw==
   dependencies:
     "@schematics/angular" "^8.0.0"
     tslib "^1.9.0"
