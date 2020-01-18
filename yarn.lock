@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/architect@0.803.23", "@angular-devkit/architect@~0.803.21":
+"@angular-devkit/architect@0.803.23", "@angular-devkit/architect@~0.803.23":
   version "0.803.23"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.803.23.tgz#a73ae2edede539f37fbfb09e4085ac24ec3781c9"
+  resolved "https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.803.23.tgz#a73ae2edede539f37fbfb09e4085ac24ec3781c9"
   integrity sha512-BRDbnmdULrle2l7WFZHEW/OAwS8RRg08+jiNG3gEP0BxDN6QMNMKmWhxmX67pgq3e/xMvu2DH0z71mAPNtJDAw==
   dependencies:
     "@angular-devkit/core" "8.3.23"
@@ -103,9 +103,9 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@8.3.23", "@angular-devkit/schematics@~8.3.22":
+"@angular-devkit/schematics@8.3.23", "@angular-devkit/schematics@~8.3.23":
   version "8.3.23"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.23.tgz#c5232d74ce6595955961aeb0b6b48dda1f047b88"
+  resolved "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-8.3.23.tgz#c5232d74ce6595955961aeb0b6b48dda1f047b88"
   integrity sha512-O8i/vn6YfqbT0q7o4jsVOTnWE07T1tcvk2zJ4O/1ete2z+Z2aw1YtIddwXEGJNCDpeE0B7f2sUHoLOS4Jc4O9w==
   dependencies:
     "@angular-devkit/core" "8.3.23"
