@@ -122,12 +122,20 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@8.3.23", "@angular-devkit/schematics@~8.3.23":
+"@angular-devkit/schematics@8.3.23":
   version "8.3.23"
   resolved "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-8.3.23.tgz#c5232d74ce6595955961aeb0b6b48dda1f047b88"
   integrity sha512-O8i/vn6YfqbT0q7o4jsVOTnWE07T1tcvk2zJ4O/1ete2z+Z2aw1YtIddwXEGJNCDpeE0B7f2sUHoLOS4Jc4O9w==
   dependencies:
     "@angular-devkit/core" "8.3.23"
+    rxjs "6.4.0"
+
+"@angular-devkit/schematics@~8.3.24":
+  version "8.3.24"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.24.tgz#583b1841d032eccf31cc86dbd15c5ac15a50cf95"
+  integrity sha512-HrwDCgw7i3GrNns0Ce5zStWkxBqlcLuDkMcLY6981jpvVzgXMIQ+YqDrJ2kD46xHh979ev7hhw1d6jwPXh85Xw==
+  dependencies:
+    "@angular-devkit/core" "8.3.24"
     rxjs "6.4.0"
 
 "@angular/cli@~8.3.23":
