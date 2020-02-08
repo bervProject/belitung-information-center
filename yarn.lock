@@ -1039,10 +1039,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/splash-screen@^5.20.0":
-  version "5.20.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.20.0.tgz#5b0f8c4dd563f8f16995e5d5507f237543405b5b"
-  integrity sha512-Uzmd6e+0+D7ZYPzgrfUNCNRgjHcQzCFSw0B/E41tJF4cD/H2Khz2Wtr0eghUQTM8fPP3HnWewd9Z2D1zfxrqfA==
+"@ionic-native/splash-screen@^5.21.0":
+  version "5.21.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.21.0.tgz#163bcf9a73a8d58d2b5eff9e8ddb6cc362a41961"
+  integrity sha512-get+cnKDoy3YcsKgdUKT2omiwGVcplUsnlIPOrDNGaePpuBkMMv5OmBvecFS5HSGQ0iPRT+tEaOXY2ONbELxhA==
   dependencies:
     "@types/cordova" latest
 
