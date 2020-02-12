@@ -1062,20 +1062,20 @@
     tslib "^1.9.0"
     ws "^7.0.1"
 
-"@ionic/angular@^4.11.10":
-  version "4.11.10"
-  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-4.11.10.tgz#467430de7ae49c5c5e1506fa64b2d51847ce62eb"
-  integrity sha512-wdi4LJLUEfGK7jxYLNH+8Q2nMPBFCGaheRmQV4hQLQDx3RjVMFJKCsqAmgXXkLtUJfSDBY68r/dvWeYO645HaQ==
+"@ionic/angular@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-5.0.0.tgz#198bc0845c096f06e0363e82c234841fdf5dfea2"
+  integrity sha512-LUcc3xj/yEminnMC4mRWcOVgXP0LjWS6MKA7GHHChsXHKvg7xhP39z2l88kmplTED3TH6bSD2HF060/jFkXaPg==
   dependencies:
-    "@ionic/core" "4.11.10"
+    "@ionic/core" "5.0.0"
     tslib "^1.9.3"
 
-"@ionic/core@4.11.10":
-  version "4.11.10"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.10.tgz#1aa5f2e31b8d0c741471af9c272964c34155ab5a"
-  integrity sha512-PeonKl5E+VOTBeKDr83y0N/1wbfkZ5jV3PSJTsVPE3Q15LxGEO0GzBvVMgkmkssuqOI3WJPXxYWZVL8ejzSFOQ==
+"@ionic/core@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.0.0.tgz#c872c2658b174c6320761094b781557001f703d3"
+  integrity sha512-F+qSeL6Icy34dgpWvXe2ImwtlXrz6KbAthVpy3VSzlbZ5Du8V7xfe4RXXE2TtFsfV1lLOmX1KAgxbYnlMMlYzw==
   dependencies:
-    ionicons "^4.6.3"
+    ionicons "^5.0.0"
     tslib "^1.10.0"
 
 "@istanbuljs/schema@^0.1.2":
@@ -4226,10 +4226,10 @@ ionic-plugin-keyboard@^2.2.1:
   resolved "https://registry.npmjs.org/ionic-plugin-keyboard/-/ionic-plugin-keyboard-2.2.1.tgz#f2a9e169bbe9b5522400347c9fd6d3467ee3fa12"
   integrity sha1-8qnhabvptVIkADR8n9bTRn7j+hI=
 
-ionicons@^4.6.3:
-  version "4.6.3"
-  resolved "https://registry.npmjs.org/ionicons/-/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
-  integrity sha512-cgP+VIr2cTJpMfFyVHTerq6n2jeoiGboVoe3GlaAo5zoSBDAEXORwUZhv6m+lCyxlsHCS3nqPUE+MKyZU71t8Q==
+ionicons@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.0.0.tgz#a97c37af0ba48eaafe9c411299af87722ccbbedf"
+  integrity sha512-tqKI5QyqCQOikbWYIA7teJPPXKfYZhEff8ARvbkOIh7PWbKI7sd0IBJcjhbw/mUilIA7U9Bcdm7qGBPhVWOCWg==
 
 ios-sim@^8.0.1:
   version "8.0.2"
