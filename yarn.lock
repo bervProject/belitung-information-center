@@ -1038,10 +1038,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/core@^5.21.6":
-  version "5.21.6"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.21.6.tgz#16e2e8674ed5235839ab00a1c97126bfa85cd8d3"
-  integrity sha512-WngBaqsIFrBOFO5jYL8rc1yipctDhvXlUbipSAWSJ3xY9UJp/jAGSqXKx4hqEMqfYR+1pLg9FnEXIxpRijsdTg==
+"@ionic-native/core@^5.22.0":
+  version "5.22.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.22.0.tgz#4ecd16ee33dd83d80ec48eec2743b3f10202202e"
+  integrity sha512-zX4EUDDDkCBtZVmu00V+SVbpuqDGhxe0Fri75neAjsG1oHvP3l470EOGHJgLW5edJtIcStlqvDE49RUcwT4mlA==
   dependencies:
     "@types/cordova" latest
 
