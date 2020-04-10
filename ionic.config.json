@@ -1,7 +1,8 @@
 {
   "name": "belitung-information-center",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular",
   "id": "3fea44b8"
