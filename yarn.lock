@@ -1080,10 +1080,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.0.1.tgz#551c87703b8f798120769e7a6a04d3a0ee5bce5e"
   integrity sha512-UKjeY34BlLGvRzDdPLk3/u0j9Ufmyy1gtHGKP6uZ3Qh0ciHFFKnL7PVw5Tf+H19HHPfZIal4rGTndvAWQsCMeA==
 
-"@capacitor/cli@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@capacitor/cli/-/cli-2.0.0.tgz#7d28b5c0a90c3aa3a95fac50db69cb8513c3b809"
-  integrity sha512-5lNRo1pio3dt+2+t50HRM/X0FclenS90VYFUInCo1aIvThnXyxMUNBIvSA31JgpcwJmyDIJPNA4iLY4DcyrpHA==
+"@capacitor/cli@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-2.0.1.tgz#db820e192f94d3bb70a238e98591a6d9f73dfb90"
+  integrity sha512-G6+Wk8Q7V8+rDcIj1Nk3iMnCGgMbl3gSFyL8aMsuvSJ4XSXLex43TJLWSNECuRv4OwyEPqUFH0g5eqEolaTSwQ==
   dependencies:
     chalk "^2.3.0"
     commander "^2.12.2"
@@ -2645,15 +2645,10 @@ compare-func@^1.3.2:
     array-ify "^1.0.0"
     dot-prop "^3.0.0"
 
-compare-versions@^3.1.0:
+compare-versions@^3.1.0, compare-versions@^3.4.0:
   version "3.6.0"
   resolved "https://registry.npmjs.org/compare-versions/-/compare-versions-3.6.0.tgz#1a5689913685e5a87637b8d3ffca75514ec41d62"
   integrity sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA==
-
-compare-versions@^3.4.0:
-  version "3.5.1"
-  resolved "https://registry.npmjs.org/compare-versions/-/compare-versions-3.5.1.tgz#26e1f5cf0d48a77eced5046b9f67b6b61075a393"
-  integrity sha512-9fGPIB7C6AyM18CJJBHt5EnCZDG3oiTJYy0NjfIAGjKpzv0tkxWko7TNQHF5ymqm7IH03tqmeuBxtvD+Izh6mg==
 
 component-bind@1.0.0:
   version "1.0.0"
@@ -9535,16 +9530,7 @@ xml-escape@^1.1.0:
   resolved "https://registry.npmjs.org/xml-escape/-/xml-escape-1.1.0.tgz#3904c143fa8eb3a0030ec646d2902a2f1b706c44"
   integrity sha1-OQTBQ/qOs6ADDsZG0pAqLxtwbEQ=
 
-xml2js@^0.4.17:
-  version "0.4.22"
-  resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.4.22.tgz#4fa2d846ec803237de86f30aa9b5f70b6600de02"
-  integrity sha512-MWTbxAQqclRSTnehWWe5nMKzI3VmJ8ltiJEco8akcC6j3miOhjjfzKum5sId+CWhfxdOs/1xauYr8/ZDBtQiRw==
-  dependencies:
-    sax ">=0.6.0"
-    util.promisify "~1.0.0"
-    xmlbuilder "~11.0.0"
-
-xml2js@^0.4.19:
+xml2js@^0.4.17, xml2js@^0.4.19:
   version "0.4.23"
   resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
