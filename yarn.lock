@@ -1104,10 +1104,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@ionic-native/core@^5.23.0":
-  version "5.23.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.23.0.tgz#69bb05a5491c94c1f8656246a237d4caa2e41d41"
-  integrity sha512-AQ+l9GnRVLnnbXWhAImywTxk62GNtOfmX2U0hJw/dtRAjZZn8C3u9Pszcbw9pN0I/yc1PKFvNqxa8nFP7XrzRQ==
+"@ionic-native/core@^5.24.0":
+  version "5.24.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.24.0.tgz#538e2623f3290982a9b1891a365d69ad83a9b481"
+  integrity sha512-FHMrBFMioe5lIz7Yk03rWkQB+IaA2l0f96frGhhrduJGUtHokQcgxctSR2UlPFQ34wfILqsBGpj+c284RyeA2Q==
   dependencies:
     "@types/cordova" latest
 
