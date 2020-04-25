@@ -1111,6 +1111,20 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/firebase-analytics@^5.23.0":
+  version "5.23.0"
+  resolved "https://registry.npmjs.org/@ionic-native/firebase-analytics/-/firebase-analytics-5.23.0.tgz#3d0b234a7a066d5c085239aaa98ca1c77a41317e"
+  integrity sha512-D4ykREDoaNQ3kS3p1DTxQeRofq3Hbprw4/9ucth4UQD7WQvpad7BL8xrMD4atGNwkii8+dZIZjGtla6L2oyUBg==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/firebase-authentication@^5.23.0":
+  version "5.23.0"
+  resolved "https://registry.npmjs.org/@ionic-native/firebase-authentication/-/firebase-authentication-5.23.0.tgz#e878a84c71593da30f8a1ebd3d02a3cfb8270ac5"
+  integrity sha512-jd0o+mgZ7IA7EpKjPNgFXv+LSoPKOMKqZijq8ptSpWcA62h1UjqjY0tu4KzvDxoL4SfdGG3SRqve02MVh82iHg==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/status-bar@^5.23.0":
   version "5.23.0"
   resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.23.0.tgz#5dccba2a129a484395999a1e379587420b190089"
@@ -2862,6 +2876,16 @@ cordova-plugin-device@^2.0.3:
   resolved "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
   integrity sha512-Jb3V72btxf3XHpkPQsGdyc8N6tVBYn1vsxSFj43fIz9vonJDUThYPCJJHqk6PX6N4dJw6I4FjxkpfCR4LDYMlw==
 
+cordova-plugin-firebase-analytics@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/cordova-plugin-firebase-analytics/-/cordova-plugin-firebase-analytics-4.2.0.tgz#a34a9d0cf6163d704f0edb897210b76368a3e36d"
+  integrity sha512-DSiBJVKHmMHPwvKzuoGs8JhUuAM+LFZru4ZkVAG5jspIVYaBiSyXE4nv1TW7VZ8N4HtiE0UQMB9bFHJnXtcYCA==
+
+cordova-plugin-firebase-authentication@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/cordova-plugin-firebase-authentication/-/cordova-plugin-firebase-authentication-3.2.0.tgz#8787f501653541230b541736ba4e794ddd791a60"
+  integrity sha512-/GU5Mt+6/RofieGDC/X6STi4OOpAHJOhWo+uvhsrksf3OU0azXUeEIF+uI6qcHdRmwKNuf34WBf7lRr8CrBGYg==
+
 cordova-plugin-statusbar@^2.4.3:
   version "2.4.3"
   resolved "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.4.3.tgz#cc557aef66c27484e0f7f045004040d03321f82d"
@@ -2871,6 +2895,16 @@ cordova-plugin-whitelist@^1.3.4:
   version "1.3.4"
   resolved "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.4.tgz#31938545c7c3e7de35c20ab08c2c3afa06e8a3f9"
   integrity sha512-EYC5eQFVkoYXq39l7tYKE6lEjHJ04mvTmKXxGL7quHLdFPfJMNzru/UYpn92AOfpl3PQaZmou78C7EgmFOwFQQ==
+
+cordova-support-android-plugin@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/cordova-support-android-plugin/-/cordova-support-android-plugin-1.0.2.tgz#db5c8c34190d656d7fa116f702f103d692f492a4"
+  integrity sha512-bgvSG5/A2Z/OerfNHN7AHMV3jt+9bH6J4vw9T8R5OJRkkK+ENRBhL8qx7m6mLmBPvtQoIhCMOCRMM9fd4P/p9w==
+
+cordova-support-google-services@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/cordova-support-google-services/-/cordova-support-google-services-1.4.0.tgz#a337f53cd4648d867fe9a12e94c1cae05ddc2556"
+  integrity sha512-GQBrZtnJQmRn7J6biJrG1GD9dm3mEmH/+RoG640qkavS9CMehTJTjDJO52nlnYzKyX4AILEIzx9r9gw/Cbts3Q==
 
 core-js-compat@^3.6.2:
   version "3.6.4"

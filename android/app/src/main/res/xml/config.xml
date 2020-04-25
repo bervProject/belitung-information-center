@@ -2,6 +2,16 @@
 <widget version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <access origin="*" />
   
+  <feature name="FirebaseAnalytics">
+    <param name="android-package" value="by.chemerisuk.cordova.firebase.FirebaseAnalyticsPlugin"/>
+    <param name="onload" value="$FIREBASE_ANALYTICS_COLLECTION_ENABLED"/>
+  </feature>
+
+  <feature name="FirebaseAuthentication">
+    <param name="android-package" value="by.chemerisuk.cordova.firebase.FirebaseAuthenticationPlugin"/>
+    <param name="onload" value="false"/>
+  </feature>
+
   <feature name="Device">
     <param name="android-package" value="org.apache.cordova.device.Device"/>
   </feature>
@@ -27,9 +37,4 @@
   <preference name="DisallowOverscroll" value="true" />
   <preference name="android-minSdkVersion" value="16" />
   <preference name="BackupWebStorage" value="none" />
-  <preference name="SplashMaintainAspectRatio" value="true" />
-  <preference name="FadeSplashScreenDuration" value="300" />
-  <preference name="SplashShowOnlyFirstTime" value="false" />
-  <preference name="SplashScreen" value="screen" />
-  <preference name="SplashScreenDelay" value="1000" />
 </widget>

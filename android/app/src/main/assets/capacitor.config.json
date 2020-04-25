@@ -1,6 +1,6 @@
 {
   "appId": "id.my.berviantoleo.belitunginformationcenter",
-  "appName": "belitung-information-center",
+  "appName": "Belitung Information Center",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "www",
@@ -10,12 +10,7 @@
       "UIWebViewBounce": "false",
       "DisallowOverscroll": "true",
       "android-minSdkVersion": "16",
-      "BackupWebStorage": "none",
-      "SplashMaintainAspectRatio": "true",
-      "FadeSplashScreenDuration": "300",
-      "SplashShowOnlyFirstTime": "false",
-      "SplashScreen": "screen",
-      "SplashScreenDelay": "1000"
+      "BackupWebStorage": "none"
     }
   }
 }

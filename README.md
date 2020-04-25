@@ -2,7 +2,10 @@
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I2YXS8)
 
-[![Build Status](https://travis-ci.org/bervProject/belitung-information-center.svg?branch=master)](https://travis-ci.org/bervProject/belitung-information-center)
+## Build Status
+
+| Travis |
+| [![Build Status](https://travis-ci.org/bervProject/belitung-information-center.svg?branch=master)](https://travis-ci.org/bervProject/belitung-information-center) |
 
 Using Ionic Framework for Mobile Application, Provide Information of Belitung Island.
 

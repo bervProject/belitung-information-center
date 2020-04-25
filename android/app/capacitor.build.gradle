@@ -10,9 +10,10 @@ android {
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
 
-
+    implementation "com.google.firebase:firebase-analytics:17.3.+"
+    implementation "com.google.firebase:firebase-auth:19.3.+"
 }
-
+apply from: "../../node_modules/cordova-support-google-services/build.gradle"
 
 if (hasProperty('postBuildExtras')) {
   postBuildExtras()
