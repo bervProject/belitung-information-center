@@ -31,4 +31,13 @@ export class BeachListPage {
     console.log(`Error: ${JSON.stringify(error)}`);
   }
 
+  doRefresh(event: any) {
+    console.log('Begin async operation');
+
+    this.beachList.load().subscribe(beachs => {
+      this.beachs = beachs;
+    }, this.handleError, () => {
+      event.target.complete();
+    });
+  }
 }
