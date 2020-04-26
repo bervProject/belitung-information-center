@@ -37,3 +37,4 @@ script:
 # - ./Build.bat
 # - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD --deploy=dev
 - yarn build --prod
+- yarn test --code-coverage=true --watch false
