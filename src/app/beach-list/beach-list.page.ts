@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Beach } from '../../models/beach';
 import { BeachList } from '../../providers/beach-list';
+import { HttpErrorResponse } from '@angular/common/http';
 
 /**
  * Generated class for the BeachList page.
@@ -17,13 +18,17 @@ export class BeachListPage {
   beachs: Beach[]
 
   constructor(private beachList: BeachList) {
-    beachList.load().subscribe(beachs => {
+    this.beachList.load().subscribe(beachs => {
       this.beachs = beachs;
-    })
+    }, this.handleError)
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BeachList');
+  }
+
+  private handleError(error: HttpErrorResponse) {
+    console.log(`Error: ${JSON.stringify(error)}`);
   }
 
 }
