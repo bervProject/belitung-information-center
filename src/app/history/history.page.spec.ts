@@ -10,7 +10,7 @@ describe('ListPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HistoryPage ],
+      declarations: [HistoryPage],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 

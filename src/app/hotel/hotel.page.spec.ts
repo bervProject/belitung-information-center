@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { HotelPage } from './history.page';
+import { HotelPage } from './hotel.page';
 
 describe('ListPage', () => {
   let component: HotelPage;
@@ -10,7 +10,7 @@ describe('ListPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HotelPage ],
+      declarations: [HotelPage],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
