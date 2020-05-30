@@ -1055,10 +1055,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.1.0.tgz#09dd063bb90424fb7fda9a86113584ace6072c88"
-  integrity sha512-20t6Ep4cVp6X/7tz3BzvNyqv6WEMfZr4VLA3nQC7WxTLfrYSWWaP8vaKvTFn8u56qCSoCUwYmYlpkib38ptwJg==
+"@capacitor/android@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.1.2.tgz#1b46359b981753b5d0950ad0e37db223402ec0ad"
+  integrity sha512-V24ZwerrFFWkcLYxhoofhg3Hv4BxH76EFr2zeVJOJkiY9yffey0VMjaE10QPyFrSIshbDtEsYwm2gxUc4wxgjA==
 
 "@capacitor/cli@2.1.0":
   version "2.1.0"
@@ -1077,10 +1077,10 @@
     which "^1.3.0"
     xml2js "^0.4.19"
 
-"@capacitor/core@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.0.2.tgz#0a61b83db181f52c8cf80bf84f0fc41a139c9226"
-  integrity sha512-3CiLTdbynUhoLDo2DgBo0qagqHAXiOYQ8BbBbgUhfvocrd1U/TUgLpMAzZbfiFNNC3uIpkjAh7KlkMhaxAcm6w==
+"@capacitor/core@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.1.2.tgz#d710b2a873f8c9ba1184a67f6c27bdb2a3a0a4af"
+  integrity sha512-oi+n23h9cJ/yaeMIlrnoeCV5p7pv2XWdT+cXzwh9j72LV+Y/oSGcNgFWGEAR/B1UVlv6LnLLQSs9CUXhNlh+Nw==
   dependencies:
     tslib "^1.9.0"
 
