@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -26,3 +26,6 @@ patch:
         patched: '2019-07-04T04:50:32.964Z'
     - cordova-android > cordova-common > endent > standard > eslint > inquirer > lodash:
         patched: '2019-07-04T04:50:32.964Z'
+  SNYK-JS-LODASH-567746:
+    - cordova-ios > cordova-common > @netflix/nerror > lodash:
+        patched: '2020-06-06T04:28:32.936Z'
