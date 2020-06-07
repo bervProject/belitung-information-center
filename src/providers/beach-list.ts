@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Beach } from '../models/beach';
+import { Paginate } from 'src/models/paginate';
 
 /*
   Generated class for the BeachList provider.
@@ -18,8 +19,8 @@ export class BeachList {
   constructor(private http: HttpClient) {
   }
 
-  load(): Observable<Array<Beach>> {
-    return this.http.get<Array<Beach>>(this.url, {
+  load(): Observable<Paginate<Beach>> {
+    return this.http.get<Paginate<Beach>>(this.url, {
       headers: {
         Accept: 'application/json'
       }

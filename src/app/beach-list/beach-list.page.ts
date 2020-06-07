@@ -19,7 +19,7 @@ export class BeachListPage {
 
   constructor(private beachList: BeachList) {
     this.beachList.load().subscribe(beachs => {
-      this.beachs = beachs;
+      this.beachs = beachs.data;
     }, this.handleError)
   }
 
@@ -35,7 +35,7 @@ export class BeachListPage {
     console.log('Begin async operation');
 
     this.beachList.load().subscribe(beachs => {
-      this.beachs = beachs;
+      this.beachs = beachs.data;
     }, this.handleError, () => {
       event.target.complete();
     });
