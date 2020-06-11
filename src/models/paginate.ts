@@ -1,6 +1,6 @@
 export interface Paginate<T> {
   current_page: number;
-  data: Array<T>;
+  data: T[];
   first_page_url: string;
   from: string | null;
   last_page: number;
