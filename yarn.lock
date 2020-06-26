@@ -3541,10 +3541,10 @@ cordova-common@^4.0.1:
     strip-bom "^4.0.0"
     underscore "^1.9.2"
 
-cordova-ios@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/cordova-ios/-/cordova-ios-6.0.0.tgz#0736177d119441560efba857c9b3d5051bc31071"
-  integrity sha512-KORyAF5fj8XF0DKgYLXz9CRgIMmsuNGU/Zqb4EfTDSN8xxoBhXWqDqURDhaOUTeiq0Cdqk7XfEdKU8jVgADgIw==
+cordova-ios@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-ios/-/cordova-ios-6.1.0.tgz#24f52007dddadabcfcec3a0cade7ff7646d43ecc"
+  integrity sha512-FlX17lC2w78CqEQXypSeFIW3vUFF7VkCjNNLN+EbvOlLld5LUIbNJWepBdKlEg1/ZMmTwAuucMuKSZTr37ra+Q==
   dependencies:
     cordova-common "^4.0.1"
     fs-extra "^9.0.0"
