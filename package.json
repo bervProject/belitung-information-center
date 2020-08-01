@@ -30,7 +30,7 @@
     "cordova-android": "^9.0.0",
     "cordova-ios": "^6.1.0",
     "core-js": "^3.6.5",
-    "rxjs": "~6.6.0",
+    "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3",
     "snyk": "^1.369.2"
