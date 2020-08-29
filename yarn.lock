@@ -1302,10 +1302,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic/angular-toolkit@~2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-2.3.2.tgz#53d71c7043d47f8e07434bbb18396eb8f7ed3a21"
-  integrity sha512-lGjJeK28IXn1mKxRsiIjJc6sBbVn9/NzuNL+6VqqJBS/wxHw8X2ANKkoAqakgB5hw1me0fGkkHZ8YbqE4tjOsA==
+"@ionic/angular-toolkit@~2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-2.3.3.tgz#e3c02098fea3c039cc538d4e2f6b4bf8cdc51078"
+  integrity sha512-r87mApDLWbLaUtd5LvNHrRlZWxjQhaBBM1yPlk9M98dHOxcX3jy7kv60ZurGZutuvbhXISGvHcvvR90yywDC1A==
   dependencies:
     "@schematics/angular" ">=8.0.0"
     cheerio "1.0.0-rc.3"
