@@ -1271,10 +1271,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.4.0.tgz#e75b01b5ce5b60f4ef400c7867e81fd2c1782b47"
-  integrity sha512-5sJicZjtuBRgtmBuV1kvWnIjlu7bnw2TGGp62UXf0ZrjvMUCYSFHBqIHZ8neffW7a3xM5cdGMUlxJ+HfA9ntAg==
+"@capacitor/android@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.4.1.tgz#db1a7fd5f2244b47f72a61aa508e7bf875ee0493"
+  integrity sha512-y2KHTuD1SPiibYou8x84Aio54ZyG9LWNCoIcrjgiFM8FlIDdp2FuW4yP17KA8ORDfj37yWI+IRzKa+t/M7Jy3Q==
 
 "@capacitor/cli@2.4.0":
   version "2.4.0"
