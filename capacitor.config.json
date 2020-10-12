@@ -17,5 +17,6 @@
       "SplashScreen": "screen",
       "SplashScreenDelay": "1000"
     }
-  }
+  },
+  "linuxAndroidStudioPath": "/var/lib/snapd/snap/bin/android-studio"
 }
