@@ -6,9 +6,9 @@ Using Ionic Framework for Mobile Application, Provide Information of Belitung Is
 
 ## Build Status
 
-| Travis | Codecov |
+| Github Action | Codecov |
 |:------:|:-------:|
-| [![Build Status](https://travis-ci.com/bervProject/belitung-information-center.svg?branch=master)](https://travis-ci.com/bervProject/belitung-information-center) | [![codecov](https://codecov.io/gh/bervProject/belitung-information-center/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/belitung-information-center) |
+| ![CI](https://github.com/bervProject/belitung-information-center/workflows/CI/badge.svg) | [![codecov](https://codecov.io/gh/bervProject/belitung-information-center/branch/master/graph/badge.svg)](https://codecov.io/gh/bervProject/belitung-information-center) |
 
 ## Screen
 
