@@ -29,4 +29,5 @@ jobs:
         run: |
           yarn build --prod
           yarn test --code-coverage=true --watch=false --browsers=ChromeHeadless
+      - run: bash <(curl -s https://codecov.io/bash)
 
