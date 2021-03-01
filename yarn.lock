@@ -1297,18 +1297,18 @@
     tslib "^2.0.3"
     ws "^7.0.1"
 
-"@ionic/angular@^5.5.3":
-  version "5.5.3"
-  resolved "https://registry.npmjs.org/@ionic/angular/-/angular-5.5.3.tgz#3df9f40066e925be573e71fd9cf4b2a40e4efb7c"
-  integrity sha512-5mn978pHY3ghsgXibUQ7bjk0K8w7lCyX4EtHKFjjQ2YplH/u5SHBvHQVj4fC+fMFA0wemtka/OTuRbnnE78RHg==
+"@ionic/angular@^5.5.5":
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-5.5.5.tgz#4b5afdf16c09e9ffc4295ac19f4a6bf91d51ef81"
+  integrity sha512-fbWM+riUzWStWHPh98VS7hKuW1h+p1WK2Zv0oZFlQdX/bF0rO5K/XJcVFBILEU4hFAaOIj6S5ZZbgJHFhxFE9w==
   dependencies:
-    "@ionic/core" "5.5.3"
+    "@ionic/core" "5.5.5"
     tslib "^1.9.3"
 
-"@ionic/core@5.5.3":
-  version "5.5.3"
-  resolved "https://registry.npmjs.org/@ionic/core/-/core-5.5.3.tgz#1ce3e15a30dd754196162a4d37267311e6c49841"
-  integrity sha512-GkTYhIEjg+ImYNscWnZRaIVk4mbKFzs3rhCmVCh7W/RJfp1TUPix+FM6J62WKCM6nBdHR76XmzqLNHrlULLxWg==
+"@ionic/core@5.5.5":
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.5.5.tgz#f30b14f2a262ef2526a44d21b616be3881169ac5"
+  integrity sha512-i5KTiRuGa9PTUULy8rTQDDDw3FbxzYiOoSdKGNC0v7UOpMv9ReRixMWd5J0cfY17VRrua2aqNsqZXYwuInVnRQ==
   dependencies:
     ionicons "^5.1.2"
     tslib "^1.10.0"
