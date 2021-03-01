@@ -1265,12 +1265,12 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic/angular-toolkit@~3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-3.0.0.tgz#9ac1b971ae967a8b4a226daf951c7ed2fbd5b529"
-  integrity sha512-H6SX8k+uPTdcsZAHEOaH5oIuQWSeIqEqEjjPqiD0e5+wmqc94RANNC/cRX/3cnVsWQiqcUY75CbpGec4xRvWoA==
+"@ionic/angular-toolkit@~3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-3.1.0.tgz#ee932f4f69ac125d1448a0a9b281352d8a48a3d0"
+  integrity sha512-qaNSFouUVM4TaGwiZMQNft13dFUkZpg2m/rKGVdBoajvTowXSM2sHUNoyzerDqjKZZdeD7mSn8J8bL40mUtyFQ==
   dependencies:
-    "@schematics/angular" "^11.0.0"
+    "@schematics/angular" "^11.1.0"
     cheerio "1.0.0-rc.3"
     colorette "1.1.0"
     copy-webpack-plugin "^6.2.1"
@@ -1406,7 +1406,7 @@
   resolved "https://registry.yarnpkg.com/@octetstream/promisify/-/promisify-2.0.2.tgz#29ac3bd7aefba646db670227f895d812c1a19615"
   integrity sha512-7XHoRB61hxsz8lBQrjC1tq/3OEIgpvGWg6DKAdwi7WRzruwkmsdwmOoUXbU4Dtd4RSOMDwed0SkP3y8UlMt1Bg==
 
-"@schematics/angular@11.2.2", "@schematics/angular@^11.0.0":
+"@schematics/angular@11.2.2", "@schematics/angular@^11.1.0":
   version "11.2.2"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-11.2.2.tgz#ff69a66b6e1acf5aa36ed0795973f3f57d893d0b"
   integrity sha512-TcxPy58adUnkirGXyZVVSMuKkA0eIz2PWSQWEgB9l7kO+5LvDOn+RMoc6AVx0s/bU9nH+eozBUJ1XAD/E8QnYQ==
@@ -10038,12 +10038,7 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
 
-tapable@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/tapable/-/tapable-2.1.1.tgz#b01cc1902d42a7bb30514e320ce21c456f72fd3f"
-  integrity sha512-Wib1S8m2wdpLbmQz0RBEVosIyvb/ykfKXf3ZIDqvWoMg/zTNm6G/tDSuUM61J1kNCDXWJrLHGSFeMhAG+gAGpQ==
-
-tapable@^2.2.0:
+tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
   integrity sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
@@ -10988,12 +10983,7 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^7.0.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
-
-ws@~7.4.2:
+ws@^7.0.1, ws@~7.4.2:
   version "7.4.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.2.tgz#782100048e54eb36fe9843363ab1c68672b261dd"
   integrity sha512-T4tewALS3+qsrpGI/8dqNMLIVdq/g/85U98HPMa6F0m6xTbvhXU6RCQLqPH3+SlomNV/LdY6RXEbBpMH6EOJnA==
