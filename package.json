@@ -26,7 +26,7 @@
     "@capacitor/core": "2.4.6",
     "@capacitor/ios": "^2.4.7",
     "@ionic-native/core": "^5.31.1",
-    "@ionic-native/status-bar": "^5.31.1",
+    "@ionic-native/status-bar": "^5.32.1",
     "@ionic/angular": "^5.5.5",
     "core-js": "^3.11.1",
     "rxjs": "~6.6.7",
