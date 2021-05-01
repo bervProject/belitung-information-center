@@ -1238,10 +1238,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.2.tgz#8f03a22a04de437254e8ce8cc84ba39689288752"
   integrity sha512-HyYEUDeIj5rRQU2Hk5HTB2uHsbRQpF70nvMhVzi+VJR0X+xNEhjPui4/kBf3VeH/wqD28PT4sVOm8qqLjBrSZg==
 
-"@ionic-native/core@^5.31.1":
-  version "5.31.1"
-  resolved "https://registry.npmjs.org/@ionic-native/core/-/core-5.31.1.tgz#189d67f20b46cfe7930091fa382539efafa8d03b"
-  integrity sha512-dbJHezSuY8OqyFwyQiS+5QscA/BONhWitXgniljEblC5kQeLOCe+8p30JYHXj9xDciYzfqFP8ICmyaGOqUHJYw==
+"@ionic-native/core@^5.32.1":
+  version "5.32.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.32.1.tgz#bff0ea83b24d0a3776ed0b9c88b160caa1a88952"
+  integrity sha512-SdOQ1hxR05wI7ep9UebZ2Uqo9EMrBhS4pgadmBNHChiNnJ8VkbMVtfsabojwTQ8ZAgJ8UR8zUWVTCgM4AB9HVw==
   dependencies:
     "@types/cordova" latest
 
