@@ -1265,21 +1265,22 @@
     tslib "^2.0.3"
     ws "^7.0.1"
 
-"@ionic/angular@^5.5.5":
-  version "5.5.5"
-  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-5.5.5.tgz#4b5afdf16c09e9ffc4295ac19f4a6bf91d51ef81"
-  integrity sha512-fbWM+riUzWStWHPh98VS7hKuW1h+p1WK2Zv0oZFlQdX/bF0rO5K/XJcVFBILEU4hFAaOIj6S5ZZbgJHFhxFE9w==
+"@ionic/angular@^5.6.6":
+  version "5.6.6"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-5.6.6.tgz#dcbef601856f60945a91470969db7e85faf311ea"
+  integrity sha512-0psh2n4Y/3sx0e2Yj4WmNcukz0nrETEiJE6Fl4CldoB8QHZcXGi0hKrPAcbGSAF0+lAJ58+Z5Gp/HQVm/MQOMA==
   dependencies:
-    "@ionic/core" "5.5.5"
+    "@ionic/core" "5.6.6"
     tslib "^1.9.3"
 
-"@ionic/core@5.5.5":
-  version "5.5.5"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.5.5.tgz#f30b14f2a262ef2526a44d21b616be3881169ac5"
-  integrity sha512-i5KTiRuGa9PTUULy8rTQDDDw3FbxzYiOoSdKGNC0v7UOpMv9ReRixMWd5J0cfY17VRrua2aqNsqZXYwuInVnRQ==
+"@ionic/core@5.6.6":
+  version "5.6.6"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.6.6.tgz#6392fdececca8c955c2309d05dfff8c467d8dc0b"
+  integrity sha512-EbVIXOTVVPxBo7hsarBpRSFNsQ22wBFtWkKmrmliieknG5LUkf5WZBpj4EENQhzYA6c+//7/nfhcD9pWgtAofA==
   dependencies:
-    ionicons "^5.1.2"
-    tslib "^1.10.0"
+    "@stencil/core" "^2.4.0"
+    ionicons "^5.5.1"
+    tslib "^2.1.0"
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
@@ -1623,6 +1624,11 @@
     child-process "^1.0.2"
     tar-stream "^2.1.2"
     tmp "^0.1.0"
+
+"@stencil/core@^2.4.0", "@stencil/core@^2.5.0":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.5.2.tgz#ad00d495ee37bbed4044524d59c7f22de15ab4a7"
+  integrity sha512-bgjPXkSzzg1WnTgVUm6m5ZzpKt602WmA/QljODAW1xVN40OHJdbGblzF/F6MFzqv2c5Cy30CB41arc8qADIdcQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -5566,10 +5572,12 @@ ionic-plugin-keyboard@^2.2.1:
   resolved "https://registry.yarnpkg.com/ionic-plugin-keyboard/-/ionic-plugin-keyboard-2.2.1.tgz#f2a9e169bbe9b5522400347c9fd6d3467ee3fa12"
   integrity sha1-8qnhabvptVIkADR8n9bTRn7j+hI=
 
-ionicons@^5.1.2:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.2.3.tgz#af4018ea7585b1e9ae11757731c77f2f36e0c7ac"
-  integrity sha512-87qtgBkieKVFagwYA9Cf91B3PCahQbEOMwMt8bSvlQSgflZ4eE5qI4MGj2ZlIyadeX0dgo+0CzZsy3ow0CsBAg==
+ionicons@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.5.1.tgz#c337b2a0871c18910dea5c72384b0f0a393abf15"
+  integrity sha512-1auVisfaXmkmxINer8Q3kJGHP1vSxk86hf7By95eJ+Av9+oBcNuAEBfSe3jaMaGRVxVw8U/2j23MFq7R3c0HPg==
+  dependencies:
+    "@stencil/core" "^2.5.0"
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -10355,7 +10363,7 @@ tslib@^1, tslib@^1.10.0, tslib@^1.11.2, tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.2.0:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
