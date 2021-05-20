@@ -1,7 +1,7 @@
-FROM node:alpine as build
+FROM node:lts-alpine as build
 WORKDIR /app
 COPY package.json yarn.lock ./
-RUN yarn
+RUN yarn --frozen-lockfile
 COPY . .
 RUN yarn build --prod
 
