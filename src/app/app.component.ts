@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
-import { Plugins } from '@capacitor/core';
-const { SplashScreen } = Plugins;
-
+import { SplashScreen } from '@capacitor/splash-screen';
 
 @Component({
   selector: 'app-root',

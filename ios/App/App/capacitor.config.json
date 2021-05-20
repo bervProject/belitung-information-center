@@ -1,1 +1,22 @@
-{}
+{
+	"appId": "id.my.berviantoleo.belitunginformationcenter",
+	"appName": "belitung-information-center",
+	"bundledWebRuntime": false,
+	"npmClient": "yarn",
+	"webDir": "www",
+	"cordova": {
+		"preferences": {
+			"webviewbounce": "false",
+			"UIWebViewBounce": "false",
+			"DisallowOverscroll": "true",
+			"android-minSdkVersion": "16",
+			"BackupWebStorage": "none",
+			"SplashMaintainAspectRatio": "true",
+			"FadeSplashScreenDuration": "300",
+			"SplashShowOnlyFirstTime": "false",
+			"SplashScreen": "screen",
+			"SplashScreenDelay": "1000"
+		}
+	},
+	"linuxAndroidStudioPath": "/var/lib/snapd/snap/bin/android-studio"
+}
