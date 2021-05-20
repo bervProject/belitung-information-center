@@ -24,7 +24,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build & Test
         run: |
-          yarn
+          yarn --frozen-lockfile
           npm install -g @ionic/cli
           yarn build --prod
           ionic cap copy
