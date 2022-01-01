@@ -25,7 +25,7 @@
     "@capacitor/app": "^1.0.0",
     "@capacitor/core": "^3.0.0",
     "@capacitor/haptics": "^1.0.0",
-    "@capacitor/ios": "^3.0.0",
+    "@capacitor/ios": "^3.1.0",
     "@capacitor/keyboard": "^1.0.0",
     "@capacitor/splash-screen": "^1.0.0",
     "@ionic-native/core": "^5.33.0",
