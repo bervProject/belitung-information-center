@@ -1515,10 +1515,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/status-bar@^5.33.0":
-  version "5.33.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.33.0.tgz#dbda85337756557795646a818ec17b8272050bcb"
-  integrity sha512-cnyfd42N9gGfhyDtF7wbWoacKg/jfsoJQHOHltfhS4/EjxsVu4bjkwq1YBLMcMY3OIqFDSn2aFcejHn8wVNkDQ==
+"@ionic-native/status-bar@^5.36.0":
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.36.0.tgz#d28b92c5b435f95c0a837af6c03b309f6e0e3830"
+  integrity sha512-OXC1z+4Iba4lo1dc2+0h4Gvpud3z0XQmEbw0ny9UflCuSkLqBxvmiNRU7CRQwPnT1KaGVXkaSokdwxO8H9IlNg==
   dependencies:
     "@types/cordova" latest
 
