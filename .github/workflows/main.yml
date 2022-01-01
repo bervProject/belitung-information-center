@@ -26,7 +26,7 @@ jobs:
         run: |
           yarn --frozen-lockfile
           npm install -g @ionic/cli
-          yarn build --prod
+          yarn build --configuration production
           ionic cap copy
           ionic cap sync android
           yarn test --code-coverage=true --watch=false --browsers=ChromeHeadless
