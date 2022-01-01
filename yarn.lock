@@ -1488,10 +1488,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-1.0.0.tgz#c8bcc8aebf48134de0dba7dc5a5d29cd2095f5d2"
   integrity sha512-GfU3RquvGYIxPGa30b5WYKIQ2ZrjChTbbBOvdJ2ec9K3LysplUJ2eO6Rjrp8DXn062lSkQORh5q9Xa7ZYqPUVA==
 
-"@capacitor/splash-screen@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-1.0.0.tgz#39ec860cf610c6e2f577f42c353cb9a0b14247a1"
-  integrity sha512-+Z6/82PsF3bPHBpK7enItWyRh7LbMF7DvpGVHSRaiLxa1vDgttmB8YBlSs9nCb7gGPg10KQs51vfkyGuIh3YHA==
+"@capacitor/splash-screen@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-1.2.0.tgz#86964a144fec0b79efca81c2fd78877f491c415b"
+  integrity sha512-SzcK8tadAzZWs4R/XbNT53CGVxtWch7VyMndsQtVkxFzOkAmrqV3OipkEUkmf43sdI/eQBwGgMdH7Iu13q6BTA==
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
