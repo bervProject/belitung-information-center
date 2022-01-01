@@ -1514,10 +1514,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-3.1.0.tgz#f9706c79dc76d22b9753e936eeb3a99562bce988"
   integrity sha512-Zyt/r4cb7+k8J63ey4HT5V8TpQIaS5g0mrkUrOOJKx8ahOdGP1Mt8MC6bnFqOeq/M/u5Ys7P66FUxW9wkCriWg==
 
-"@capacitor/keyboard@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-1.0.0.tgz#c8bcc8aebf48134de0dba7dc5a5d29cd2095f5d2"
-  integrity sha512-GfU3RquvGYIxPGa30b5WYKIQ2ZrjChTbbBOvdJ2ec9K3LysplUJ2eO6Rjrp8DXn062lSkQORh5q9Xa7ZYqPUVA==
+"@capacitor/keyboard@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-1.2.0.tgz#bb3e8fa0cfb7c80338494b29a81158f893b000d3"
+  integrity sha512-FgtMAdNRtVarSo0P99UnkM+WcKCmWevUSccBVRqoGYnJOXkvByY8UtZcDe4YI0/uTTA4TiQKt/epuGHHUTaVSw==
 
 "@capacitor/splash-screen@^1.2.0":
   version "1.2.0"
