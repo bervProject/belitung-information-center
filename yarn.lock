@@ -1461,10 +1461,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic/angular-toolkit@~6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-6.0.0.tgz#da05eb0db0eb6e48b6e5f5cd6a4f1e58b85217c9"
-  integrity sha512-obbFfMaHBkbfldD/6buopF7a7/Vygkr2FOryM6YOFeIcwUVx3iGptOHK38s+6MYVZ0dHzStvoh+xNu2IopVaCw==
+"@ionic/angular-toolkit@~6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-6.1.0.tgz#8b2235f91fc510c49b0e6faf5a8b73a860b1bf6a"
+  integrity sha512-QZkoNdXej4MQqKGdm+suzTK39R0iRGpBFhOzP+f75v4ZGgEQ+ntA213UdaTa6EvsvS7n14p0zbHiBroLUOCNzQ==
   dependencies:
     "@angular-devkit/core" "^13.0.1"
     "@angular-devkit/schematics" "^13.0.1"
