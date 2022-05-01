@@ -1490,12 +1490,12 @@
     "@angular-devkit/schematics" "^13.0.1"
     "@schematics/angular" "^13.0.1"
 
-"@ionic/angular@^6.0.14":
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-6.0.14.tgz#ba1b04bc0b84c750e717372cd23cc4377d68478b"
-  integrity sha512-6x8vFYUjjNJm1dRZvpxAZNaGere4XIs4McAYirn+3DpgBMDUitEbxI1T3pXvFFDCTc+JuoVn7lf1ZgazVUazVA==
+"@ionic/angular@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-6.1.3.tgz#20567d1967bfc78cc0901539f2c75de5d6c3d7ab"
+  integrity sha512-I8M3uNH21HN1pYHsozZ235ytpqM28J7asGnaNU/iR+7/lkrzdyTWPr6Jhug/rRnpcI7v5EiKYET0mGBcbwQqmw==
   dependencies:
-    "@ionic/core" "^6.0.14"
+    "@ionic/core" "^6.1.3"
     jsonc-parser "^3.0.0"
     tslib "^2.0.0"
 
@@ -1508,10 +1508,10 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/core@^6.0.14":
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-6.0.14.tgz#824c78feab4de72bc0619684f63dbe212739deff"
-  integrity sha512-QGlv347oor1EHBwybAo/HwAJjj+sLtPrKb3zmNLKeOczv92OzzgnFAPIiQh059PtcqaecgufuMdcn7RPhBCM0Q==
+"@ionic/core@^6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-6.1.3.tgz#4595cfa5c6839da21be31465f55bc5e4aac06973"
+  integrity sha512-levKZw7wqfPZylx+DsG0sca7/ymKNo9/Hjf1qhXjU4xlALHVhU2c8LaAXmi1s47YGKrkOZYC5d/siUfjb9Kh4Q==
   dependencies:
     "@stencil/core" "^2.14.2"
     ionicons "^6.0.0"
@@ -4762,7 +4762,7 @@ istanbul-reports@^3.0.2:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-jasmine-core@^4.1.0:
+jasmine-core@^4.1.0, jasmine-core@~4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-4.1.0.tgz#2377349b0e8bfd3fbdb36c9e4f09e3b1a17cf5c2"
   integrity sha512-8E8BiffCL8sBwK1zU9cbavLe8xpJAgOduSJ6N8PJVv8VosQ/nxVTuXj2kUeHxTlZBVvh24G19ga7xdiaxlceKg==
@@ -4771,11 +4771,6 @@ jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
   integrity sha1-vMl5rh+f0FcB5F5S5l06XWPxok4=
-
-jasmine-core@~4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-4.1.0.tgz#2377349b0e8bfd3fbdb36c9e4f09e3b1a17cf5c2"
-  integrity sha512-8E8BiffCL8sBwK1zU9cbavLe8xpJAgOduSJ6N8PJVv8VosQ/nxVTuXj2kUeHxTlZBVvh24G19ga7xdiaxlceKg==
 
 jasmine-spec-reporter@~7.0.0:
   version "7.0.0"
