@@ -1361,10 +1361,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^3.4.3":
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-3.4.3.tgz#1bfaa5bbe83872f7ba5c7d7bd38b54a47827124b"
-  integrity sha512-G/6+mbOde9LMWl5KvA5rB/xEQF05sKrQFMBwo8y3C8pYF+axtcrS0Dgze9rOB7nCjH4NXv/bLw58E9+q8/sQUA==
+"@capacitor/android@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-3.5.1.tgz#d81ec82f84ab7f0abeadb4cc100e6a3820197d65"
+  integrity sha512-rjehS0+BQBlwoN8hUyrMuzexn/9QJsONb1kmN5uXcL8JuTEbv35fa7z0tSD4x1LKwUFd+3Zeuwt60QRuwijlmw==
 
 "@capacitor/app@^1.1.1":
   version "1.1.1"
