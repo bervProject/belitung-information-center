@@ -18,20 +18,12 @@
     "@angular-devkit/core" "13.3.7"
     rxjs "6.6.7"
 
-"@angular-devkit/architect@0.1402.1":
+"@angular-devkit/architect@0.1402.1", "@angular-devkit/architect@^0.1402.1":
   version "0.1402.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1402.1.tgz#3588269ebe44628a56d72b8c1ebf346c6cd9c6eb"
   integrity sha512-OZ5mkVHSrk5WX6wIfvkxJUCqJRtfQh1S476qHIi80llhJufFTwoOwJrcz7XtNRvbZMLRMztf0aIhEDaUtEBRZQ==
   dependencies:
     "@angular-devkit/core" "14.2.1"
-    rxjs "6.6.7"
-
-"@angular-devkit/architect@^0.1401.0":
-  version "0.1401.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1401.0.tgz#7cd9b2bb6567ca1d5284e487885838328aabfdae"
-  integrity sha512-dHgP2/5EXkJpdf6Y1QHQX2RP8xTli/CFZH3uNnTh+EuAib/kwu+Z6K3UttZWB5VGhAF1u/xf97Vly/UkXvjKAg==
-  dependencies:
-    "@angular-devkit/core" "14.1.0"
     rxjs "6.6.7"
 
 "@angular-devkit/build-angular@^13.3.7":
@@ -125,17 +117,6 @@
     magic-string "0.25.7"
     rxjs "6.6.7"
     source-map "0.7.3"
-
-"@angular-devkit/core@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-14.1.0.tgz#e3f6f0b8e8b6780229e582eb730b8662938b4c85"
-  integrity sha512-Y2d/+nFmjjY4eatc3cwdDDAnpnhG3KTX2OVW7dXSUxW3eY5e3vdMlVUbFiKwvwAshlrJy85Y6RMvZSBN4VrpnA==
-  dependencies:
-    ajv "8.11.0"
-    ajv-formats "2.1.1"
-    jsonc-parser "3.1.0"
-    rxjs "6.6.7"
-    source-map "0.7.4"
 
 "@angular-devkit/core@14.2.1", "@angular-devkit/core@^14.0.0", "@angular-devkit/core@^14.0.4":
   version "14.2.1"
