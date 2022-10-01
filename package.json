@@ -63,7 +63,7 @@
     "protractor": "^7.0.0",
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.4"
   },
   "description": "Belitung Information Center: Center information for Belitung Island.",
   "snyk": true
