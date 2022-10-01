@@ -15,12 +15,20 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@angular-devkit/architect@0.1402.1", "@angular-devkit/architect@^0.1402.1":
+"@angular-devkit/architect@0.1402.1":
   version "0.1402.1"
   resolved "https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.1402.1.tgz#3588269ebe44628a56d72b8c1ebf346c6cd9c6eb"
   integrity sha512-OZ5mkVHSrk5WX6wIfvkxJUCqJRtfQh1S476qHIi80llhJufFTwoOwJrcz7XtNRvbZMLRMztf0aIhEDaUtEBRZQ==
   dependencies:
     "@angular-devkit/core" "14.2.1"
+    rxjs "6.6.7"
+
+"@angular-devkit/architect@^0.1402.4":
+  version "0.1402.4"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1402.4.tgz#c8ef0c06a26193d694c1c9bc37607e75dac41f85"
+  integrity sha512-lOgyKJ+KjBYWzgcxJ3vAy3RFkqRmSw3RY4thNsWOHLvzT8o33u3USDuOr6cDAQW12NjX9K7JDuvNlPbadjQbSQ==
+  dependencies:
+    "@angular-devkit/core" "14.2.4"
     rxjs "6.6.7"
 
 "@angular-devkit/build-angular@^14.2.1":
@@ -101,10 +109,21 @@
     "@angular-devkit/architect" "0.1402.1"
     rxjs "6.6.7"
 
-"@angular-devkit/core@14.2.1", "@angular-devkit/core@^14.0.0", "@angular-devkit/core@^14.2.1":
+"@angular-devkit/core@14.2.1":
   version "14.2.1"
   resolved "https://registry.npmjs.org/@angular-devkit/core/-/core-14.2.1.tgz#7ce14efdb5fce687bb4f13bef03d4b67e971b22e"
   integrity sha512-lW8oNGuJqr4r31FWBjfWQYkSXdiOHBGOThIEtHvUVBKfPF/oVrupLueCUgBPel+NvxENXdo93uPsqHN7bZbmsQ==
+  dependencies:
+    ajv "8.11.0"
+    ajv-formats "2.1.1"
+    jsonc-parser "3.1.0"
+    rxjs "6.6.7"
+    source-map "0.7.4"
+
+"@angular-devkit/core@14.2.4", "@angular-devkit/core@^14.0.0", "@angular-devkit/core@^14.2.1":
+  version "14.2.4"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-14.2.4.tgz#95b43bfea524f06d3010cb0bb5c4eb8e33d95a57"
+  integrity sha512-NsvN1U42goBcibVR75vDp2NOFeSU+Wcekwf1r3Jbyz6a2l9Unf0v9BOWLXdigFY8xztbrOHJPSIbC+2rkvOUnw==
   dependencies:
     ajv "8.11.0"
     ajv-formats "2.1.1"
