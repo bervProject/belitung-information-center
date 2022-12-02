@@ -131,7 +131,7 @@
     rxjs "6.6.7"
     source-map "0.7.4"
 
-"@angular-devkit/schematics@14.2.7", "@angular-devkit/schematics@^14.0.0", "@angular-devkit/schematics@^14.2.4":
+"@angular-devkit/schematics@14.2.7", "@angular-devkit/schematics@^14.0.0":
   version "14.2.7"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-14.2.7.tgz#bbe64dff82c55814a16ca9bb79668fa230001340"
   integrity sha512-3e2dpFXWl2Z4Gfm+KgY3gAeqsyu8utJMcDIg5sWRAXDeJJdAPc5LweCa8YZEn33Zr9cl8oK+FxlOr15RCyWLcA==
@@ -142,7 +142,7 @@
     ora "5.4.1"
     rxjs "6.6.7"
 
-"@angular-devkit/schematics@15.0.2":
+"@angular-devkit/schematics@15.0.2", "@angular-devkit/schematics@^15.0.2":
   version "15.0.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-15.0.2.tgz#5177dab4382eeebe84f4768c3368799ef99cef48"
   integrity sha512-FqimOzQCwRGmz/NPPiK6QpAxI+qpy8rYQRlWRWSOfQgjb+cl4rD2isllalYvzO+5mmb88fwJ7bj9cP2X5khpcg==
@@ -4954,17 +4954,10 @@ magic-string@0.26.2:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@0.26.7:
+magic-string@0.26.7, magic-string@^0.26.0:
   version "0.26.7"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
   integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
-  dependencies:
-    sourcemap-codec "^1.4.8"
-
-magic-string@^0.26.0:
-  version "0.26.3"
-  resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.26.3.tgz#25840b875140f7b4785ab06bddc384270b7dd452"
-  integrity sha512-u1Po0NDyFcwdg2nzHT88wSK0+Rih0N1M+Ph1Sp08k8yvFFU3KR72wryS7e1qMPJypt99WB7fIFVCA92mQrMjrg==
   dependencies:
     sourcemap-codec "^1.4.8"
 
