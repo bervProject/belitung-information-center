@@ -1246,10 +1246,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-4.6.0.tgz#fe4eb729993585e974b1fd40d6ba3de4a97b789d"
   integrity sha512-OrB1pYWDZJ0O0lAlqVM5DgVWxx2/As9vXBY72ndQhI+HYY41fIYFt5YHxp5rubqzV38UKmP2ZgdK7Q33ZmjDyw==
 
-"@capacitor/keyboard@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/@capacitor/keyboard/-/keyboard-4.0.1.tgz#36cd5f8aa2ef87a722f318e525d1bda12e7811d1"
-  integrity sha512-JZVci2v9jAKH0sIoNNZzmw/cWGXWf+KneLt0yDr/6YSs/2/tfuH10yOrUOhgrKFkR+fFj/rddTClQXUQ8Rqcrg==
+"@capacitor/keyboard@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-4.1.0.tgz#a49e3a416fee75cf69706890ed7abb9ec3edf7fd"
+  integrity sha512-5fanmJLdkXLEaro0oezkmpC15tBGlsLW4cp1jQTMPwyX6NLlPUFHdWUhMERzxL2QXHmHvtoFMJ4m15Eymgefuw==
 
 "@capacitor/splash-screen@^4.1.2":
   version "4.1.2"
