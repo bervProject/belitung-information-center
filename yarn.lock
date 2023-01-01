@@ -120,10 +120,21 @@
     rxjs "6.6.7"
     source-map "0.7.4"
 
-"@angular-devkit/core@15.0.2", "@angular-devkit/core@^15.0.2":
+"@angular-devkit/core@15.0.2":
   version "15.0.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-15.0.2.tgz#47a822ab2cde0afc7fdd4ca101f3fe5353f05358"
   integrity sha512-XkdNKyeYvnCq0zWuEda163muUV38ifNyK6EjrbhI5pQWNg7myxtDmLenjtpXLGLZwjxqsart2l/uoYsk1xQCmQ==
+  dependencies:
+    ajv "8.11.0"
+    ajv-formats "2.1.1"
+    jsonc-parser "3.2.0"
+    rxjs "6.6.7"
+    source-map "0.7.4"
+
+"@angular-devkit/core@^15.0.4":
+  version "15.0.4"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-15.0.4.tgz#257ba1d76cd106216d0150f480d0062e726af996"
+  integrity sha512-4ITpRAevd652SxB+qNesIQ9qfbm7wT5UBU5kJOPPwGL77I21g8CQpkmV1n5VSacPvC9Zbz90feOWexf7w7JzcA==
   dependencies:
     ajv "8.11.0"
     ajv-formats "2.1.1"
