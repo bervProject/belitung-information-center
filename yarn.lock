@@ -1215,10 +1215,10 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^4.6.2":
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-4.6.2.tgz#2589525479a07c153f7ffd610684c3145c322aff"
-  integrity sha512-PQpOJnMi0i/d4UrT8bPdfkwlKAlQLgsyo2YKj+iUYjEIu8sKQvqDirLYnpeKhj4cflIG2u9mh/eFncooA+u2gw==
+"@capacitor/android@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-4.7.0.tgz#00c909d800a9aa9d7e337ee5ccdfc2be2741ca20"
+  integrity sha512-hyglxuzY2mktY0ST+6Y9IpZjSKxBLsG2xtnKWsIqDvXKKBjy5xRjHJMueP4P3u5z+bpLrdY6YlyR9JMIV/Pwcg==
 
 "@capacitor/app@^4.1.1":
   version "4.1.1"
