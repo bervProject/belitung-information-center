@@ -1214,15 +1214,15 @@
   resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-4.1.1.tgz#47329e19ecc080bc2934be86566a7673e0f94e5c"
   integrity sha512-SJcJA1rhFQyeH6eLfUEbdKkHzAwzahJNVPNXmU88fdmXpMgM2dJGzZj1vrm6e21aQq+Z4aBVLJ2RCdj92zD7wg==
 
-"@capacitor/cli@^4.7.3":
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-4.7.3.tgz#f2fd52849e0f3bcff7dfbf29ecefc0eb3183c86c"
-  integrity sha512-/9Vjl0A91UjRA0b8a5YCqHfHcM50vQ3Fh0typ3ScwYZhg3shkFtB03e8liAD/u0rhr/MerN8VGgN75QNEXN0Lg==
+"@capacitor/cli@^4.8.0":
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-4.8.0.tgz#80b856acafdffbaf3ea48dce75fe955a06cdcecf"
+  integrity sha512-Hbs1SKjvyg5wdcMGRt+CzebdgjlnVDjn92WV1p16gsrBwqWm+uDYMNpFQ7vWKALFL9AZCi/r8lXHmuX/HoD2Kw==
   dependencies:
-    "@ionic/cli-framework-output" "^2.2.5"
-    "@ionic/utils-fs" "^3.1.6"
-    "@ionic/utils-subprocess" "^2.1.11"
-    "@ionic/utils-terminal" "^2.3.3"
+    "@ionic/cli-framework-output" "2.2.5"
+    "@ionic/utils-fs" "3.1.6"
+    "@ionic/utils-subprocess" "2.1.11"
+    "@ionic/utils-terminal" "2.3.3"
     commander "^9.3.0"
     debug "^4.3.4"
     env-paths "^2.2.0"
@@ -1235,7 +1235,7 @@
     semver "^7.3.7"
     tar "^6.1.11"
     tslib "^2.4.0"
-    xml2js "^0.4.23"
+    xml2js "^0.5.0"
 
 "@capacitor/core@^4.7.3":
   version "4.7.3"
@@ -1430,9 +1430,9 @@
     jsonc-parser "^3.0.0"
     tslib "^2.3.0"
 
-"@ionic/cli-framework-output@^2.2.5":
+"@ionic/cli-framework-output@2.2.5":
   version "2.2.5"
-  resolved "https://registry.npmjs.org/@ionic/cli-framework-output/-/cli-framework-output-2.2.5.tgz#0db9fba7efe0c27bb5085b12ee01f22053e44152"
+  resolved "https://registry.yarnpkg.com/@ionic/cli-framework-output/-/cli-framework-output-2.2.5.tgz#0db9fba7efe0c27bb5085b12ee01f22053e44152"
   integrity sha512-YeDLTnTaE6V4IDUxT8GDIep0GuRIFaR7YZDLANMuuWJZDmnTku6DP+MmQoltBeLmVvz1BAAZgk41xzxdq6H2FQ==
   dependencies:
     "@ionic/utils-terminal" "2.3.3"
@@ -1494,9 +1494,9 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/utils-subprocess@^2.1.11":
+"@ionic/utils-subprocess@2.1.11":
   version "2.1.11"
-  resolved "https://registry.npmjs.org/@ionic/utils-subprocess/-/utils-subprocess-2.1.11.tgz#805b86c066fe3a50f6739551ca228d52f25ffeb2"
+  resolved "https://registry.yarnpkg.com/@ionic/utils-subprocess/-/utils-subprocess-2.1.11.tgz#805b86c066fe3a50f6739551ca228d52f25ffeb2"
   integrity sha512-6zCDixNmZCbMCy5np8klSxOZF85kuDyzZSTTQKQP90ZtYNCcPYmuFSzaqDwApJT4r5L3MY3JrqK1gLkc6xiUPw==
   dependencies:
     "@ionic/utils-array" "2.1.5"
@@ -7841,10 +7841,18 @@ ws@~8.2.3:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
   integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
 
-xml2js@^0.4.17, xml2js@^0.4.23:
+xml2js@^0.4.17:
   version "0.4.23"
   resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~11.0.0"
+
+xml2js@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.5.0.tgz#d9440631fbb2ed800203fad106f2724f62c493b7"
+  integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"
