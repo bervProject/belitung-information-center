@@ -1207,15 +1207,15 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^4.8.0":
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-4.8.0.tgz#e63bb6c9f56834c694b591f4aaf44fe0a59e6364"
-  integrity sha512-VFKEWZ7dDExcGnsEz+5euFV6eyEsNZt2WR/rbeE3NXW/1FQZhM5qtqXxGwSUpFkhhlyP1KE0NJoC9EWmHEi+ug==
+"@capacitor/android@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-5.0.4.tgz#aa6497782bae0851553682126a6051157fe932b5"
+  integrity sha512-WtXmjRQ0bCtFkwBID/jVEPbqnh0uR9wTSgkW7QNzogDuA0iyJJI2nxDfT9knUmg6mne/CnfTXg093zzdc13C0w==
 
-"@capacitor/app@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-4.1.1.tgz#47329e19ecc080bc2934be86566a7673e0f94e5c"
-  integrity sha512-SJcJA1rhFQyeH6eLfUEbdKkHzAwzahJNVPNXmU88fdmXpMgM2dJGzZj1vrm6e21aQq+Z4aBVLJ2RCdj92zD7wg==
+"@capacitor/app@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.2.tgz#79a448ff0a5a1158f362874987d813e22a7bd004"
+  integrity sha512-TRs5Iu94+IfUJ4iiljWC0tuVsHXBOD4asADggpUH6DnwlQo3cVuRnFK+A0jJnWW9GvlFy9uTsXxytzzXP/V0vQ==
 
 "@capacitor/cli@^4.8.0":
   version "4.8.0"
@@ -1240,32 +1240,32 @@
     tslib "^2.4.0"
     xml2js "^0.5.0"
 
-"@capacitor/core@^4.8.0":
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-4.8.0.tgz#3d5e7403539b0ce20b62164e5c5bf3d652cfe976"
-  integrity sha512-hFgLi1bGmADMmYMFAaitEsVheF3QgoMU4TrHkMgik51NzHwUq3nBdP5+A9oNS9qe3dEDyegoaHF8X9oJc9v8QQ==
+"@capacitor/core@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-5.0.4.tgz#70c5551a34657482042c351cbadac0fd9aba53a7"
+  integrity sha512-BFvziz9jM87pLHW2sXPNIzwrdmI5mAP0tBsBHgXoCO2+wVdpvIMYCpcst5BuTULaMz5JBFZZ6g6nqwgfs+SMCA==
   dependencies:
     tslib "^2.1.0"
 
-"@capacitor/haptics@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-4.1.0.tgz#29b082c3b90c920477717a0754017f5d4e43ed15"
-  integrity sha512-gAIFy50e1VZPdokRFLkl8Y+yZYB3e4brd5yu9DRShbWbheruwU34TxtG5C1NANvq4mbXd3tMXzBi59Q5JFyTHA==
+"@capacitor/haptics@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-5.0.2.tgz#77a4e686c394d83627c8c82bd293a2a2f5744b51"
+  integrity sha512-HGkvL3a8yW26YVR7pfgMpkJrspD0+9sUrBB77SWR/GqQV+m32FTx9ECGlw+sHhwLnv0XtFx4PocIL5SlU1m3Vw==
 
-"@capacitor/ios@^4.8.0":
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-4.8.0.tgz#b6db0092bdacb1404488447e927c098a9c7e3b12"
-  integrity sha512-FbEXFzZIe5EGZNKpGxHNUEGKjcKK0XY45P3QXLoJPF3fEndW96ThLZOy3rHjt436sTu41NubFpPyIzyyy1YgMA==
+"@capacitor/ios@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-5.0.4.tgz#337a5a917b75a5b5d257bb0b08b6f1d7bb396241"
+  integrity sha512-JVyggBTbHR1OWqxTRysgGKhZHDuM0AQwCIbylvEpza5X0zmaltbQxVC83abcwOKsgNJnrcuv+HUgV+LXg8Dk4Q==
 
-"@capacitor/keyboard@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-4.1.1.tgz#36e33d0e6a82ff2a67c17f67fd7cbb756c69706a"
-  integrity sha512-fdC7u2TeG4BqwC0LnPnhOdya31C4QKdhk/8pc5lxI9X5jyYAetMCN1kEkKa7KREw4DdzXotJt27B9BXxAza6og==
+"@capacitor/keyboard@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-5.0.2.tgz#6070f15b3257ce72aedc79ed005d084f45c57e35"
+  integrity sha512-5qauopAd9Dlltzi87i/WHMBsocCf0BJqVxRZ3H+kifQm4BLHGokrzuanddEJd6MPOnglSl3H3C9oElJB3wkVVQ==
 
-"@capacitor/splash-screen@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-4.2.0.tgz#027b545c03d2bebe039fb43ee46e2a48e8424f3a"
-  integrity sha512-XtGqM7J/yVEl/tKksKa7l1B6IDzhq4JJkadRuT8ohf/N7fD/1z45+id/4twM2Vnsxazh1fur2gq8rma7HaXMEw==
+"@capacitor/splash-screen@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-5.0.2.tgz#d5dbf5019e09199b3b8eee11edcddb30a48cb5b3"
+  integrity sha512-DJQQL3VfY7LfMH0FJgzrb0N1v3fZw0EVfBRB+xQjbI13jjoafS8WPRCQDvXxzoJqfh5hQyepDRyYxIdOCB2KEA==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
