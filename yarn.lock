@@ -1212,10 +1212,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-5.0.5.tgz#61a9e3b13c7c1a489e237efee18574e2d65a4088"
   integrity sha512-vH5Qoy+p2Egsu1GtPtOsihHcEI2fCGCIHwlUGPaXXGysudzpzWtJZ5JZNlycJyfRdjECrjkutgbNaHLog+YlXQ==
 
-"@capacitor/app@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.5.tgz#b80cc5f1444ad9dec51df22cdef1a35c4690eb83"
-  integrity sha512-CedAa0aSQu8yNWqgZXWQfcjIg6uzPNdJQPW5CTyT6dA/U7KuJ10YVA6MhoryCUVthnMJqVj9lYqqxyFsSXjzqw==
+"@capacitor/app@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.6.tgz#2ee02551115fd2e92dc7e81bc30a6c6fa78efa66"
+  integrity sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA==
 
 "@capacitor/cli@^5.1.0":
   version "5.1.0"
