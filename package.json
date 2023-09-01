@@ -34,7 +34,7 @@
     "core-js": "^3.32.1",
     "rxjs": "~7.8.1",
     "snyk": "^1.1209.0",
-    "tslib": "^2.6.1",
+    "tslib": "^2.6.2",
     "zone.js": "~0.11.8"
   },
   "devDependencies": {
