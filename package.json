@@ -48,7 +48,7 @@
     "@angular/language-service": "^16.2.11",
     "@capacitor/cli": "^5.5.1",
     "@ionic/angular-toolkit": "~10.0.0",
-    "@types/jasmine": "~4.3.6",
+    "@types/jasmine": "~5.1.1",
     "@types/jasminewd2": "^2.0.11",
     "@types/node": "^20.8.10",
     "codelyzer": "^6.0.2",
