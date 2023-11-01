@@ -1318,10 +1318,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-5.0.6.tgz#c22fd6acbc62cbdff39279ded687c418f2c89a5a"
   integrity sha512-UrMcR7p2X10ql4VLlowUuH/VckTeu0lj+RQpekxox14uxDmu5AGIFDK/iDTi8W6QZkxTJRZK6sbCjgwYgNJ7Pw==
 
-"@capacitor/ios@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-5.3.0.tgz#d2d090fae999d2c0161e72ee55efd8f61e28586d"
-  integrity sha512-AxcW6kp2dOhJ7D6Jz7FAiVi+tq8rv3K3VrfZ0rcGJGlqZfrOJ1m8ImcQ7cO9Fec7wf7a/XSwMOqWemYZFLOO8w==
+"@capacitor/ios@^5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-5.4.2.tgz#83947c7807b0441166d130a38511cf9a6d4621b1"
+  integrity sha512-KsICm57H7rUOcQ+V7IOIPe87VOiXGWFrsCqAYxDWAS++hxTR7sn8Z0pcq7Ir2xS6as0ct1eZva9BokykpYaUXQ==
 
 "@capacitor/keyboard@^5.0.6":
   version "5.0.6"
