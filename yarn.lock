@@ -23,20 +23,12 @@
     "@angular-devkit/core" "14.2.7"
     rxjs "6.6.7"
 
-"@angular-devkit/architect@0.1800.6":
+"@angular-devkit/architect@0.1800.6", "@angular-devkit/architect@^0.1800.6":
   version "0.1800.6"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1800.6.tgz#3db041b66a8baa91a7e63be9cbf826f64a54a677"
   integrity sha512-VJ08XM9XR8d3ldXEMIeaiamBSvQqX+ucIKw73zubP37yFVAuvXriDOFskcouVUT0RxWXIZVcNxrgp2t3FE4F6w==
   dependencies:
     "@angular-devkit/core" "18.0.6"
-    rxjs "7.8.1"
-
-"@angular-devkit/architect@^0.1703.2":
-  version "0.1703.6"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1703.6.tgz#22e92ee8097375a8b46a93e21acdc3e524778bb2"
-  integrity sha512-Ck501FD/QuOjeKVFs7hU92w8+Ffetv0d5Sq09XY2/uygo5c/thMzp9nkevaIWBxUSeU5RqYZizDrhFVgYzbbOw==
-  dependencies:
-    "@angular-devkit/core" "17.3.6"
     rxjs "7.8.1"
 
 "@angular-devkit/build-angular@^14.2.7":
