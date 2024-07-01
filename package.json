@@ -31,7 +31,7 @@
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/status-bar": "^5.36.0",
     "@ionic/angular": "^7.8.6",
-    "core-js": "^3.37.0",
+    "core-js": "^3.37.1",
     "rxjs": "~7.8.1",
     "snyk": "^1.1292.1",
     "tslib": "^2.6.3",
