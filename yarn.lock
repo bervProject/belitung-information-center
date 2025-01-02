@@ -144,12 +144,23 @@
     ora "5.4.1"
     rxjs "7.8.1"
 
-"@angular-devkit/schematics@19.0.2", "@angular-devkit/schematics@^19.0.2":
+"@angular-devkit/schematics@19.0.2":
   version "19.0.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-19.0.2.tgz#51c12c0a56f0ff83294089cb7ad94dc423f4fe77"
   integrity sha512-bwq8ReC92gGFTd2BeNBWCnOqIKu2YKNvwMVc7dl+D154WO2gzCaK2J5nL97qm5EjoUoXgvFRs84ysSAnLFzBxQ==
   dependencies:
     "@angular-devkit/core" "19.0.2"
+    jsonc-parser "3.3.1"
+    magic-string "0.30.12"
+    ora "5.4.1"
+    rxjs "7.8.1"
+
+"@angular-devkit/schematics@^19.0.6":
+  version "19.0.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-19.0.6.tgz#071e32c627a7fb98cb2c0c4954611c2155a56e6d"
+  integrity sha512-R9hlHfAh1HKoIWgnYJlOEKhUezhTNl0fpUmHxG2252JSY5FLRxmYArTtJYYmbNdBbsBLNg3UHyM/GBPvJSA3NQ==
+  dependencies:
+    "@angular-devkit/core" "19.0.6"
     jsonc-parser "3.3.1"
     magic-string "0.30.12"
     ora "5.4.1"
