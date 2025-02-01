@@ -10,14 +10,6 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@angular-devkit/architect@0.1900.2":
-  version "0.1900.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1900.2.tgz#0f31cae8b1bf50e07b48a277e457d696dcdc1f60"
-  integrity sha512-rGUgOgN/jb3Pyx3E1JsUbwQQZp4C0M/t0lwyWIFjUpndl27aBDjO2y5hzeG0B1+FgOuSNg8BPOYaEIO5vSCspw==
-  dependencies:
-    "@angular-devkit/core" "19.0.2"
-    rxjs "7.8.1"
-
 "@angular-devkit/architect@0.1900.6", "@angular-devkit/architect@^0.1900.6":
   version "0.1900.6"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1900.6.tgz#609c785ee7a00ca1bc99d1c7c017c4605962c76e"
@@ -101,18 +93,6 @@
   version "18.2.11"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-18.2.11.tgz#5f0ed261db0b658dbd502e024a4e2abee47fe272"
   integrity sha512-H9P1shRGigORWJHUY2BRa2YurT+DVminrhuaYHsbhXBRsPmgB2Dx/30YLTnC1s5XmR9QIRUCsg/d3kyT1wd5Zg==
-  dependencies:
-    ajv "8.17.1"
-    ajv-formats "3.0.1"
-    jsonc-parser "3.3.1"
-    picomatch "4.0.2"
-    rxjs "7.8.1"
-    source-map "0.7.4"
-
-"@angular-devkit/core@19.0.2":
-  version "19.0.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.0.2.tgz#b64463e02b27bb9873af9e86ab09632bf97494d7"
-  integrity sha512-p5pTx9rAtJUfoa7BP6R5U7dGFWHrrgpYpVyF3jwqYIu0h1C0rJIyY8q/HlkvzFxgfWag1qRf15oANq3G9fqdwg==
   dependencies:
     ajv "8.17.1"
     ajv-formats "3.0.1"
@@ -263,10 +243,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/language-service@^19.0.5":
-  version "19.0.5"
-  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-19.0.5.tgz#6adbab5af2d13686c469f226ee2a5614224c402a"
-  integrity sha512-E4WFEsCzHuF3DYe4EfOCiMGW1zWmq3UYi5XXOBNLyzWDvwU5xTfdme6ECXGawHMc2kCaWMVNL4DzYpVsUgLG0w==
+"@angular/language-service@^19.1.4":
+  version "19.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-19.1.4.tgz#ff416861e0a5ac2f41ab6763d74701e8cbff51be"
+  integrity sha512-4W6dlBvukL3b7BnGiMM5cPGx3rAAVhBNicfNHX6hXCkz26AV0VFIbfrt/8GRSFmsDYZEOhXvhAy8dxHQCtyCqA==
 
 "@angular/platform-browser-dynamic@^19.0.1":
   version "19.0.1"
