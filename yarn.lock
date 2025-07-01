@@ -1198,10 +1198,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-7.0.0.tgz#c31dcda3faa4158dc63da07e17e8c1ec31382e6d"
   integrity sha512-Tqwy8wG+sx4UqiFCX4Q+bFw6uKgG7BiHKAPpeefoIgoEB8H8Jf3xZNZoVPnJIMuPsCdSvuyHXZbJXH9IEEirGA==
 
-"@capacitor/splash-screen@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-7.0.0.tgz#7c59d1bacd051baf7ae133831902654927d23695"
-  integrity sha512-y25WNRcl+MY/ltb3OZPZPpNmhVFW9270QneJY8tjY7FJc78zWEszj1cX84LJS4LeTHfHi4NcNW4y0/oewWG88A==
+"@capacitor/splash-screen@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-7.0.1.tgz#ea70d39c4346db4558f749eeb2d3ac2f5c34c550"
+  integrity sha512-Nbqw9bEIe7uHj/HOT81mf4jT6uK1YykozpQw/uIKQDueMg6RJYaJK2/TMajIOohLk8fJF4TYIc1i9nGjNLnfGg==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
