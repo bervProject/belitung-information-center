@@ -3,7 +3,7 @@
   "appName": "belitung-information-center",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
-  "webDir": "www",
+  "webDir": "www/browser",
   "cordova": {
     "preferences": {
       "webviewbounce": "false",

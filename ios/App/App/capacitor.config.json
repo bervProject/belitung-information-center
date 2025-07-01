@@ -3,7 +3,7 @@
 	"appName": "belitung-information-center",
 	"bundledWebRuntime": false,
 	"npmClient": "yarn",
-	"webDir": "www",
+	"webDir": "www/browser",
 	"cordova": {
 		"preferences": {
 			"webviewbounce": "false",
@@ -18,5 +18,12 @@
 			"SplashScreenDelay": "1000"
 		}
 	},
-	"linuxAndroidStudioPath": "/var/lib/snapd/snap/bin/android-studio"
+	"linuxAndroidStudioPath": "/var/lib/snapd/snap/bin/android-studio",
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"SplashScreenPlugin",
+		"CDVPlugin"
+	]
 }
