@@ -30,7 +30,7 @@
     "@capacitor/splash-screen": "^7.0.0",
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/status-bar": "^5.36.0",
-    "@ionic/angular": "^8.4.3",
+    "@ionic/angular": "^8.6.2",
     "core-js": "^3.40.0",
     "rxjs": "~7.8.1",
     "snyk": "^1.1295.2",
