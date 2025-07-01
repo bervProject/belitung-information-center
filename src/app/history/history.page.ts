@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  templateUrl: 'history.page.html'
+  templateUrl: 'history.page.html',
+  standalone: false
 })
 export class HistoryPage implements OnInit {
   private selectedItem: any;

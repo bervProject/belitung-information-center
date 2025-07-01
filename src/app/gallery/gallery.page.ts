@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  templateUrl: 'gallery.page.html'
+  templateUrl: 'gallery.page.html',
+  standalone: false
 })
 export class GalleryPage implements OnInit {
   private selectedItem: any;

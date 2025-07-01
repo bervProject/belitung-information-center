@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  templateUrl: 'hotel.page.html'
+  templateUrl: 'hotel.page.html',
+  standalone: false
 })
 export class HotelPage implements OnInit {
   private selectedItem: any;

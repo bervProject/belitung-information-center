@@ -13,6 +13,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 @Component({
   selector: 'page-beach-list',
   templateUrl: 'beach-list.page.html',
+  standalone: false
 })
 export class BeachListPage {
   beachs: Beach[]

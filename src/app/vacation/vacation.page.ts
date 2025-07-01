@@ -3,7 +3,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'page-list',
-  templateUrl: 'vacation.page.html'
+  templateUrl: 'vacation.page.html',
+  standalone: false
 })
 export class VacationPage {
   selectedItem: any;
