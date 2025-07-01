@@ -7,13 +7,10 @@
       "node"
     ]
   },
-  "files": [
-    "src/test.ts",
-    "src/zone-flags.ts",
-    "src/polyfills.ts"
-  ],
+  "files": [],
   "include": [
     "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "src/**/*.d.ts",
+    "**/*.ts"
   ]
 }
