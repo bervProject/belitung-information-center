@@ -25,15 +25,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      # Runs a set of commands using the runners shell
-      - name: Build & Test
+      - uses: browser-actions/setup-chrome@v1
+      - name: Setup
         run: |
           yarn --frozen-lockfile
           npm install -g @ionic/cli
+      - name: Build
+        run: |
           yarn build --configuration production
           ionic cap copy
           ionic cap sync android
-          yarn test --code-coverage=true --watch=false --browsers=ChromeHeadless
+      - name: Test
+        run: yarn test --code-coverage=true --watch=false --browsers=ChromeHeadless
       - uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
