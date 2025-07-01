@@ -30,6 +30,7 @@ jobs:
           ionic cap copy
           ionic cap sync android
           yarn test --code-coverage=true --watch=false --browsers=ChromeHeadless
-      - name: Upload to Codecov
-        run: bash <(curl -s https://codecov.io/bash)
+      - uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
 
