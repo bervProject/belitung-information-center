@@ -23,7 +23,7 @@
     "@angular/router": "^20.0.5",
     "@capacitor/android": "^7.4.0",
     "@capacitor/app": "^7.0.1",
-    "@capacitor/core": "^7.4.0",
+    "@capacitor/core": "^7.4.4",
     "@capacitor/haptics": "^7.0.1",
     "@capacitor/ios": "^7.4.0",
     "@capacitor/keyboard": "^7.0.1",
