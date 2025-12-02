@@ -10,6 +10,24 @@ updates:
   open-pull-requests-limit: 100
   assignees:
   - berviantoleo
+  groups:
+    angular:
+      patterns:
+        - "@angular/*"
+        - "@angular-devkit/*"
+    capacitor:
+      patterns:
+        - "@capacitor/*"
+    ionic:
+      patterns:
+        - "@ionic/*"
+        - "@ionic-native/*"
+        - "ionic-*"
+    karma:
+      patterns:
+        - "karma*"
+        - "jasmine*"
+        - "@types/jasmine*"
 - package-ecosystem: docker
   directory: "/"
   schedule:
