@@ -8409,10 +8409,10 @@ smart-buffer@^4.2.0:
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-snyk@^1.1301.0:
-  version "1.1301.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1301.0.tgz#7bf6adcc75fc3204ad3189d726f6d81e9c4bdd55"
-  integrity sha512-kTb8F9L1PlI3nYWlp60wnSGWGmcRs6bBtSBl9s8YYhAiFZNseIZfXolQXBSCaya5QlcxzfH1pb4aqCNMbi0tgg==
+snyk@^1.1301.2:
+  version "1.1301.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1301.2.tgz#9e64882778cbd191393e4f85dc221c508d5f3a0b"
+  integrity sha512-FUTV/2WStY0GyvJROvxKPa2A3FzgVNIUB8rR2LMiR1to9onrnyO233HEIOS1HU+dJTXHFSh8z3fMze2TqPt58w==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
