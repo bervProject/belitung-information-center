@@ -1204,20 +1204,20 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.28.5"
 
-"@capacitor/android@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-8.1.0.tgz#c7952196d03cb02fd9fb64b6ad19dcb2b0450b81"
-  integrity sha512-z0acTPxj5DCy/U2FU7w+GA93oC+wdyKnsOcRg5rutDmSYa8Do1tzYqApKgf+hnuTNPbtrCTHp0Zy1cLiK/4MEw==
+"@capacitor/android@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-8.3.0.tgz#112eafa783124c74d6e8d1fe882ed2536a4f1f5e"
+  integrity sha512-EQy6ByUuKayQBJmMm/e0byJiHavqsQHrvW23BuT2GNVQvenAvipqwaePiJHzrv2PZr7A0T0+se4kgDCeROj0mQ==
 
-"@capacitor/app@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-8.0.1.tgz#5f01b17555fa310f5cd8fdf9c6d8d521df21c253"
-  integrity sha512-yeG3yyA0ETKqvgqexwHMBlmVOF13A1hRXzv/km0Ptv5TrNIZvZJK4MTI3uiqvnbHrzoJGP5DwWAjEXEfi90v3Q==
-
-"@capacitor/cli@^8.1.0":
+"@capacitor/app@^8.1.0":
   version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-8.1.0.tgz#3ad7b2f18efabc6a214c628e39ff2dc5ca999b3c"
-  integrity sha512-JAzA/ckPgTCjZz6YumBLV2dNCFEVXAuR1oOKLD7AJ4LAI5pF5RtRZrf5FoaxvJVb0S4CouZT5cD+7NwsNJX/nw==
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-8.1.0.tgz#fd8da0994a02a767981c8a235d2b6524d36a3aae"
+  integrity sha512-MlmttTOWHDedr/G4SrhNRxsXMqY+R75S4MM4eIgzsgCzOYhb/MpCkA5Q3nuOCfL1oHm26xjUzqZ5aupbOwdfYg==
+
+"@capacitor/cli@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-8.3.0.tgz#4530763660984ce30184b03c4208f5a6ba158191"
+  integrity sha512-n3QDUimtFNbagoo8kLdjvTz3i3Y4jX1fOjvo6ptUKLzErmuqeamL8kECASoyQvg/OzJisZToGZrgLphBsptJcw==
   dependencies:
     "@ionic/cli-framework-output" "^2.2.8"
     "@ionic/utils-subprocess" "^3.0.1"
@@ -1237,27 +1237,27 @@
     tslib "^2.8.1"
     xml2js "^0.6.2"
 
-"@capacitor/core@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-8.1.0.tgz#096f7f66f765b2d6f389ff3feb4795401b4bd229"
-  integrity sha512-UfMBMWc1v7J+14AhH03QmeNwV3HZx3qnOWhpwnHfzALEwAwlV/itQOQqcasMQYhOHWL0tiymc5ByaLTn7KKQxw==
+"@capacitor/core@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-8.3.0.tgz#11c19b0f1dc935a41ca8cabe22890a1cbc04a1b5"
+  integrity sha512-S4ajn4G/fS3VJj8salxqH/3LO5PPWv1VxGKQ27OCajnDcLJjEg9VXwgMPnlypgkIOqCJ2fmQLtk8GT+BlI9/rw==
   dependencies:
     tslib "^2.1.0"
 
-"@capacitor/haptics@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-8.0.1.tgz#2076f92554fff68a3d429901a675fcbe727beb44"
-  integrity sha512-8v8rowLBMeb3CryqoQvXndwyUsoi4pPXf0qFw7IGA4D32Uk7+K6juN2SjRowqunoovkvvbFmU9TD7JIAz2zmFw==
+"@capacitor/haptics@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-8.0.2.tgz#821d2687b81ff8855327273314d0d146476f069f"
+  integrity sha512-c2hZzRR5Fk1tbTvhG1jhh2XBAf3EhnIerMIb2sl7Mt41Gxx1fhBJFDa0/BI1IbY4loVepyyuqNC9820/GZuoWQ==
 
-"@capacitor/ios@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-8.1.0.tgz#45f353a855ccff2adbded1de36b54d158bfcacdf"
-  integrity sha512-wPaQ8ayL0UY+SxydZbrmfzPs8TryZVEB6hrL/XBnXxQtb6rpEmIy/3GIltPwM+/T4m/IuaSDZOToWK65ruC00g==
+"@capacitor/ios@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-8.3.0.tgz#64c56a09b176ddd171e4e7f7e3681d8e557b95d7"
+  integrity sha512-5Rtwv8SITKlYTt8lAZG+khnVIdzPtqbocH3eP+JkEmX1vpSMwx4TOKtT8OBz8gpQ+pUJDRp7DBYOv3U6l/obCw==
 
-"@capacitor/keyboard@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-8.0.1.tgz#f694a06eca5f140d33d68165b4738df88146f504"
-  integrity sha512-HDf4qrvvhLRMsgBoqeqIld6hP8JMK/WPbCYMvz8ajhY6TaibYt6B+NQyky4oIPCOfHTz5OcVsuHkbb8fQvGDAg==
+"@capacitor/keyboard@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-8.0.2.tgz#eb0b4de69de13b21a45e53aafb685eb8b8b7ec86"
+  integrity sha512-he6xKmTBp5AhVrWJeEi6RYkJ25FjLLdNruBU2wafpITk3Nb7UdzOj96x3K6etFuEj8/rtn9WXBTs1o2XA86A1A==
 
 "@capacitor/splash-screen@^8.0.1":
   version "8.0.1"
