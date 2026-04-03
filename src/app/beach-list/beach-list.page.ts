@@ -16,29 +16,31 @@ import { HttpErrorResponse } from '@angular/common/http';
   standalone: false
 })
 export class BeachListPage {
-  beachs: Beach[]
+  beachs: Beach[] = []
 
   constructor(private beachList: BeachList) {
-    this.beachList.load().subscribe(beachs => {
-      this.beachs = beachs.data;
-    }, this.handleError)
+    this.beachList.load().subscribe({
+      next: beachs => { this.beachs = beachs.data ?? []; },
+      error: (error: HttpErrorResponse) => {
+        console.log(`Error: ${JSON.stringify(error)}`);
+        this.beachs = [];
+      }
+    });
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BeachList');
   }
 
-  private handleError(error: HttpErrorResponse) {
-    console.log(`Error: ${JSON.stringify(error)}`);
-  }
-
   doRefresh(event: any) {
-    console.log('Begin async operation');
-
-    this.beachList.load().subscribe(beachs => {
-      this.beachs = beachs.data;
-    }, this.handleError, () => {
-      event.target.complete();
+    this.beachList.load().subscribe({
+      next: beachs => { this.beachs = beachs.data ?? []; },
+      error: (error: HttpErrorResponse) => {
+        console.log(`Error: ${JSON.stringify(error)}`);
+        this.beachs = [];
+        event.target.complete();
+      },
+      complete: () => { event.target.complete(); }
     });
   }
 }

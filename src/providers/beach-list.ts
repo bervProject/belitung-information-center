@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Beach } from '../models/beach';
-import { Paginate } from 'src/models/paginate';
+import { Paginate } from '../models/paginate';
 
 /*
   Generated class for the BeachList provider.

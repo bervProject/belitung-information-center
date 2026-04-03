@@ -16,17 +16,23 @@
 </ion-header>
 
 
-<ion-content class="padding">
+<ion-content class="ion-padding">
   <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
   <ion-list>
-    <ion-item *ngFor="let beach of beachs">
-      <ion-avatar slot="start">
-        <img src="assets/img/Beach.jpg">
-      </ion-avatar>
-      <ion-label>{{ beach.name }}</ion-label>
-      <ion-icon name="arrow-forward" slot="end"></ion-icon>
-    </ion-item>
+    @for (beach of beachs; track beach.name) {
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="assets/img/Beach.jpg">
+        </ion-avatar>
+        <ion-label>{{ beach.name }}</ion-label>
+        <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-item>
+    } @empty {
+      <ion-item>
+        <ion-label color="medium">No beaches available.</ion-label>
+      </ion-item>
+    }
   </ion-list>
 </ion-content>

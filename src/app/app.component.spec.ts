@@ -2,17 +2,15 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { TestBed, waitForAsync } from '@angular/core/testing';
 
 import { Platform } from '@ionic/angular';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
-import { RouterTestingModule } from '@angular/router/testing';
+import { provideRouter } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
 
-  let statusBarSpy, platformReadySpy, platformSpy;
+  let platformReadySpy: Promise<void>, platformSpy: jasmine.SpyObj<Platform>;
 
   beforeEach(waitForAsync(() => {
-    statusBarSpy = jasmine.createSpyObj('StatusBar', ['styleDefault']);
     platformReadySpy = Promise.resolve();
     platformSpy = jasmine.createSpyObj('Platform', { ready: platformReadySpy });
 
@@ -20,10 +18,9 @@ describe('AppComponent', () => {
       declarations: [AppComponent],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
       providers: [
-        { provide: StatusBar, useValue: statusBarSpy },
         { provide: Platform, useValue: platformSpy },
+        provideRouter([]),
       ],
-      imports: [RouterTestingModule.withRoutes([])],
     }).compileComponents();
   }));
 
@@ -37,7 +34,6 @@ describe('AppComponent', () => {
     TestBed.createComponent(AppComponent);
     expect(platformSpy.ready).toHaveBeenCalled();
     await platformReadySpy;
-    expect(statusBarSpy.styleDefault).toHaveBeenCalled();
   });
 
   it('should have menu labels', async () => {
@@ -46,8 +42,6 @@ describe('AppComponent', () => {
     const app = fixture.nativeElement;
     const menuItems = app.querySelectorAll('ion-label');
     expect(menuItems.length).toEqual(4);
-    // expect(menuItems[0].textContent).toContain('Home');
-    // expect(menuItems[1].textContent).toContain('Vacation');
   });
 
   it('should have urls', async () => {
@@ -56,8 +50,6 @@ describe('AppComponent', () => {
     const app = fixture.nativeElement;
     const menuItems = app.querySelectorAll('ion-item');
     expect(menuItems.length).toEqual(4);
-    // expect(menuItems[0].getAttribute('ng-reflect-router-link')).toEqual('/home');
-    // expect(menuItems[1].getAttribute('ng-reflect-router-link')).toEqual('/vacation');
   });
 
 });
