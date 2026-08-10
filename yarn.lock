@@ -152,12 +152,12 @@
     "@angular-devkit/core" "22.0.8"
     rxjs "7.8.2"
 
-"@angular-devkit/architect@>= 0.2100.0 < 0.2200.0":
-  version "0.2102.13"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.2102.13.tgz#821dd52c53a6b731bc2262cec72736408b6e6152"
-  integrity sha512-fheyi0gPx6b7tT+WQ+ePlzdGqKjPLUK72wg5Z9pkVtQ5+VN/8yB9mlRlmoivngd2FeNG9wMeNynWZGYycnOWVw==
+"@angular-devkit/architect@>= 0.2200.0 < 0.2300.0":
+  version "0.2201.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.2201.3.tgz#c885e6d229db2cb4d34295899a8e47d277421d00"
+  integrity sha512-5WX6rooTQZCh+yE9k3O5hc7nnQtzy1nw6fQpaTuCzIgPG8teQuVtdxegBsM3OcjJac1r+qJLo+KmTRfnqcfsyg==
   dependencies:
-    "@angular-devkit/core" "21.2.13"
+    "@angular-devkit/core" "22.1.3"
     rxjs "7.8.2"
 
 "@angular-devkit/build-angular@^22.0.7":
@@ -241,18 +241,6 @@
     rxjs "7.8.2"
     source-map "0.7.6"
 
-"@angular-devkit/core@21.2.13", "@angular-devkit/core@>= 21.0.0 < 22.0.0":
-  version "21.2.13"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-21.2.13.tgz#8abaaa0612425042b4b3f6b8ea45347ad2c81393"
-  integrity sha512-9jLaHcUr6BumIY9nCsBib1q62p259nf++gd2igYJ7mLm1w/0wEacsZ1cC8wCGEe6vx8a+DrD+EVCQ6zivePG2A==
-  dependencies:
-    ajv "8.18.0"
-    ajv-formats "3.0.1"
-    jsonc-parser "3.3.1"
-    picomatch "4.0.4"
-    rxjs "7.8.2"
-    source-map "0.7.6"
-
 "@angular-devkit/core@22.0.7":
   version "22.0.7"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.0.7.tgz#60e712a50db9f74ee4bba4e5c39939582353a1db"
@@ -265,7 +253,7 @@
     rxjs "7.8.2"
     source-map "0.7.6"
 
-"@angular-devkit/core@22.0.8", "@angular-devkit/core@^22.0.7":
+"@angular-devkit/core@22.0.8":
   version "22.0.8"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.0.8.tgz#32ae524ffb609f682515520b189cabe9104b188a"
   integrity sha512-Hnr4SCkxQM+xtq4uERC09qwTZpt97t4CwDZYzv/HbQA4pMYDfTxvIRHCyl+UHf4NbkC7ZVgyiab+KzTfuc609Q==
@@ -274,6 +262,18 @@
     ajv-formats "3.0.1"
     jsonc-parser "3.3.1"
     picomatch "4.0.4"
+    rxjs "7.8.2"
+    source-map "0.7.6"
+
+"@angular-devkit/core@22.1.3", "@angular-devkit/core@>= 22.0.0 < 23.0.0", "@angular-devkit/core@^22.0.7":
+  version "22.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.1.3.tgz#460714465203f95c7c92054de46647515021f8f8"
+  integrity sha512-ASK8oZVElt/Zpz5FrzJjLnnUbzp/fW57eFFSRgpA+n9KRnuFi6YvNdSS3HkG5049Jcukce+PiMBdfzw/jBVkEw==
+  dependencies:
+    ajv "8.20.0"
+    ajv-formats "3.0.1"
+    jsonc-parser "3.3.1"
+    picomatch "4.0.5"
     rxjs "7.8.2"
     source-map "0.7.6"
 
@@ -299,13 +299,13 @@
     ora "9.4.0"
     rxjs "7.8.2"
 
-"@angular-eslint/builder@^21.4.0":
-  version "21.4.0"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-21.4.0.tgz#56eb8f44b46555c0d27c17156fe311d206bb13de"
-  integrity sha512-3kgGmrVaCYbLtDjC8g4BmMBbdz4thsOB8/NYly8JtXM8EuDZEk5Pz6VTRpJR02ARprwayraTTmhyvq6OGBlQ9w==
+"@angular-eslint/builder@^22.1.0":
+  version "22.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-22.1.0.tgz#d38388a397239e2c65addb0ca6428dd4e7199ace"
+  integrity sha512-gmdk06PK0whNJlapIQjRnhud2/n+oIIDBIoLUHWFFxhHRs+ZstVc6+81gf+sYDOm1Ehmb0V3nZAg3YpT1Mk0Eg==
   dependencies:
-    "@angular-devkit/architect" ">= 0.2100.0 < 0.2200.0"
-    "@angular-devkit/core" ">= 21.0.0 < 22.0.0"
+    "@angular-devkit/architect" ">= 0.2200.0 < 0.2300.0"
+    "@angular-devkit/core" ">= 22.0.0 < 23.0.0"
 
 "@angular-eslint/bundled-angular-compiler@21.3.1":
   version "21.3.1"
@@ -3764,16 +3764,6 @@ ajv@8.17.1:
     json-schema-traverse "^1.0.0"
     require-from-string "^2.0.2"
 
-ajv@8.18.0:
-  version "8.18.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.18.0.tgz#8864186b6738d003eb3a933172bb3833e10cefbc"
-  integrity sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==
-  dependencies:
-    fast-deep-equal "^3.1.3"
-    fast-uri "^3.0.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
-
 ajv@8.20.0, ajv@^8.0.0, ajv@^8.17.1, ajv@^8.9.0:
   version "8.20.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.20.0.tgz#304b3636add88ba7d936760dd50ece006dea95f9"
@@ -7069,15 +7059,15 @@ picomatch@4.0.4:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.4.tgz#fd6f5e00a143086e074dffe4c924b8fb293b0589"
   integrity sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==
 
+picomatch@4.0.5, picomatch@^4.0.3, picomatch@^4.0.4:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.5.tgz#51ea57a17d86f605f81039595fbc40ed06a55fab"
+  integrity sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==
+
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
-
-picomatch@^4.0.3, picomatch@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.5.tgz#51ea57a17d86f605f81039595fbc40ed06a55fab"
-  integrity sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==
 
 pify@^4.0.1:
   version "4.0.1"
