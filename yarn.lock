@@ -87,18 +87,6 @@
     "@angular-devkit/architect" "0.2201.6"
     rxjs "7.8.2"
 
-"@angular-devkit/core@20.3.17", "@angular-devkit/core@^20.0.0":
-  version "20.3.17"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-20.3.17.tgz#0b8e9009c5c20bc838791fb4b95cd7d14fd65c57"
-  integrity sha512-xlBT8rmyTjb5P/p6wDHp0EleagptjSHGNsJwqSY4FdIG0p59ezAbb2wbQGqkYDxuoptFSLUpAGE7sNWZ5OiLWw==
-  dependencies:
-    ajv "8.17.1"
-    ajv-formats "3.0.1"
-    jsonc-parser "3.3.1"
-    picomatch "4.0.3"
-    rxjs "7.8.2"
-    source-map "0.7.6"
-
 "@angular-devkit/core@22.1.6", "@angular-devkit/core@>= 22.0.0 < 23.0.0", "@angular-devkit/core@^22.0.7":
   version "22.1.6"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.1.6.tgz#599244803509e060d7d28a8ce966f5f5fb79ccc1"
@@ -110,17 +98,6 @@
     picomatch "4.0.5"
     rxjs "7.8.2"
     source-map "0.7.6"
-
-"@angular-devkit/schematics@20.3.17", "@angular-devkit/schematics@^20.0.0":
-  version "20.3.17"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-20.3.17.tgz#e14cba4eb24ec90cbe9c712fdda40d362880034c"
-  integrity sha512-aqvxNwBbRKmbQfv/j6e0ddTjhs2vIoQnzIVAqFLMvuAQmnTCHP+Kw26wS4OQMuGbDTUZ9SxPy4eSNu+vBoc3fA==
-  dependencies:
-    "@angular-devkit/core" "20.3.17"
-    jsonc-parser "3.3.1"
-    magic-string "0.30.17"
-    ora "8.2.0"
-    rxjs "7.8.2"
 
 "@angular-devkit/schematics@22.1.6", "@angular-devkit/schematics@^22.1.6":
   version "22.1.6"
@@ -1715,21 +1692,17 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic/angular-toolkit@~12.3.0":
-  version "12.3.0"
-  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-12.3.0.tgz#260faaf89722be51a19c020e269c9d5ea3e2d384"
-  integrity sha512-9cPTMmwggviB2W7wf4sv4vFeQnYq5HbO6V89UqQHopShokdhSvUFpaQ2w1/Mdf/ot8PghGjR3t5IdnXV7i1LvA==
-  dependencies:
-    "@angular-devkit/core" "^20.0.0"
-    "@angular-devkit/schematics" "^20.0.0"
-    "@schematics/angular" "^20.0.0"
+"@ionic/angular-toolkit@~13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@ionic/angular-toolkit/-/angular-toolkit-13.0.0.tgz#45c9a20898d4f7b9c564ddbd7bb4169e1f04fb7b"
+  integrity sha512-tdI5NPy10EXIRWKztbNm5df2GvGOaculamxLoylM8RxorSw+Xm84+34L4SIbxFXM+b+5r98r3lIFTSo9tKhpOw==
 
-"@ionic/angular@^8.8.15":
-  version "8.8.15"
-  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-8.8.15.tgz#99291e94a2996c542908cf9b57599517c3c2ab68"
-  integrity sha512-a6kx8cwOiHPVH6VGOkxPqJRTbQ6QMVUgIT6094O/8pOm/4qPT3qu1UYiP6GoiappG7l0mIBjrBGcMPjbvKOJJg==
+"@ionic/angular@^9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-9.0.1.tgz#96414c46091a1662522f6d745cecdb0a1ffc34b2"
+  integrity sha512-q6HQdwIb5/uqZewVoBhRfz07Y9tR/cswWCY5Viy0BV5mUoLfOciAbeWqDaAK5YDc3QGZ2UH1bztsbj/VlpmOoQ==
   dependencies:
-    "@ionic/core" "8.8.15"
+    "@ionic/core" "9.0.1"
     ionicons "^8.0.13"
     jsonc-parser "^3.0.0"
     tslib "^2.3.0"
@@ -1743,13 +1716,13 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/core@8.8.15":
-  version "8.8.15"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-8.8.15.tgz#e3c475613c2e3227228362a20118dc2004839087"
-  integrity sha512-iEREpxWYEakK3ZVGdFVi6Vm+MIpVhNlfy5qds5IjVnZqUPKaD8ynN/2LPfgQiLO/e8eEo40KJj+QuW97uMW53Q==
+"@ionic/core@9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-9.0.1.tgz#0a3c62d030ab74e0eba7d0e165c550cbcae8f56c"
+  integrity sha512-70fIYFxGuBFYOanWIl1PF3/emB+xVQjLQ9OZqgI+9ki8nEZH1y90YkTtAmleLl2jTx6TUpSaJpdUnzkBreIt7w==
   dependencies:
-    "@stencil/core" "4.43.5"
-    ionicons "^8.0.13"
+    "@stencil/core" "^4.44.2"
+    ionicons "^8.1.0"
     tslib "^2.1.0"
 
 "@ionic/utils-array@2.1.6":
@@ -2890,15 +2863,6 @@
     jsonc-parser "3.3.1"
     typescript "6.0.3"
 
-"@schematics/angular@^20.0.0":
-  version "20.3.17"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-20.3.17.tgz#60da4ddc265fe54dbe05aa9ebc8878ea3de85dd6"
-  integrity sha512-cTqiKBXZRxRfmV6rzjceu7swQ1N/KUMuS+jgoLqRZqPFNIfe7SDk4L5ou889q4wyfEMO4tED4dzjK30jLJ98SA==
-  dependencies:
-    "@angular-devkit/core" "20.3.17"
-    "@angular-devkit/schematics" "20.3.17"
-    jsonc-parser "3.3.1"
-
 "@sentry-internal/tracing@7.120.4":
   version "7.120.4"
   resolved "https://registry.yarnpkg.com/@sentry-internal/tracing/-/tracing-7.120.4.tgz#4410e9cb4b6f8333111d97e8be7f01c7eaa008ca"
@@ -2959,24 +2923,10 @@
   resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.1.0.tgz#a79b55dbaf8604812f52d140b2c9ab41bc150bb8"
   integrity sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==
 
-"@stencil/core@4.43.5":
-  version "4.43.5"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.43.5.tgz#a18542bc2d8fda1f8f6098f63d266f18e3f1eb11"
-  integrity sha512-cgWD+GeuvJpTe1WQn40p02+BJ2j0j1YJ17GdkF2qKIQ23s2e3Zivq5yISXS3dcuV6oUJFN93jprdk+nk/sq99Q==
-  optionalDependencies:
-    "@rollup/rollup-darwin-arm64" "4.44.0"
-    "@rollup/rollup-darwin-x64" "4.44.0"
-    "@rollup/rollup-linux-arm64-gnu" "4.44.0"
-    "@rollup/rollup-linux-arm64-musl" "4.44.0"
-    "@rollup/rollup-linux-x64-gnu" "4.44.0"
-    "@rollup/rollup-linux-x64-musl" "4.44.0"
-    "@rollup/rollup-win32-arm64-msvc" "4.44.0"
-    "@rollup/rollup-win32-x64-msvc" "4.44.0"
-
-"@stencil/core@^4.35.3":
-  version "4.43.1"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.43.1.tgz#3571e55a2c87da042ae3f271a87775a2d45b398f"
-  integrity sha512-sohOiS8XMJXQnMsxhCgT6Ex8Kl0e0PAzDH9ExYXpDn/5Wo5rliSmABkqU9/dz/l945O/mpeG10rn6jToZJFjKQ==
+"@stencil/core@^4.43.5", "@stencil/core@^4.44.2":
+  version "4.44.2"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.44.2.tgz#96109ba625879afd48b42c97d6f085e1c1335dec"
+  integrity sha512-TNaYdlyHfy8UF7glvZwaY6pM0AhgCOXuW5Kx3+AO+ITeaipCHWXi5tkZ6P/3HCL+hUySc60lPKSnZ4xdYIFb4g==
   optionalDependencies:
     "@rollup/rollup-darwin-arm64" "4.44.0"
     "@rollup/rollup-darwin-x64" "4.44.0"
@@ -3449,16 +3399,6 @@ ajv-keywords@^5.1.0:
   dependencies:
     fast-deep-equal "^3.1.3"
 
-ajv@8.17.1:
-  version "8.17.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.17.1.tgz#37d9a5c776af6bc92d7f4f9510eba4c0a60d11a6"
-  integrity sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==
-  dependencies:
-    fast-deep-equal "^3.1.3"
-    fast-uri "^3.0.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
-
 ajv@8.20.0, ajv@^8.0.0, ajv@^8.17.1, ajv@^8.9.0:
   version "8.20.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.20.0.tgz#304b3636add88ba7d936760dd50ece006dea95f9"
@@ -3839,7 +3779,7 @@ caniuse-lite@^1.0.30001809:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz#4970b477dea3278374de9bc43aa8f5d39fc3cda2"
   integrity sha512-TITQPUkaz+aVk5GL6NhOdwk1aEaNTSDPsGFWrTuhKGtjTF70jL/Oht2W4c6rXUe5fu7Ie19VIahAXHIIiWWNeg==
 
-chalk@^5.3.0, chalk@^5.6.2:
+chalk@^5.6.2:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
   integrity sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==
@@ -3887,11 +3827,6 @@ cli-cursor@^5.0.0:
   integrity sha512-aCj4O5wKyszjMmDT4tZj93kxyydN/K5zPWSCe6/0AV/AA1pqe5ZBIw0a2ZfPQV7lL5/yb5HsUreJ6UFAF1tEQw==
   dependencies:
     restore-cursor "^5.0.0"
-
-cli-spinners@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.9.2.tgz#1773a8f4b9c4d6ac31563df53b3fc1d79462fe41"
-  integrity sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==
 
 cli-spinners@^3.2.0:
   version "3.4.0"
@@ -5239,12 +5174,12 @@ ionic-plugin-keyboard@^2.2.1:
   resolved "https://registry.yarnpkg.com/ionic-plugin-keyboard/-/ionic-plugin-keyboard-2.2.1.tgz#f2a9e169bbe9b5522400347c9fd6d3467ee3fa12"
   integrity sha512-VB1+AoAgAy1tlDfRBI+MH4PRZNxbywPxxvzqdw8ZLho47e+rGJear/ONyOuufeb5RwqGIo0CM/+eLK2xcIWrdQ==
 
-ionicons@^8.0.13:
-  version "8.0.13"
-  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-8.0.13.tgz#afaea839809b819cf073325f54d73b1ba99e59fc"
-  integrity sha512-2QQVyG2P4wszne79jemMjWYLp0DBbDhr4/yFroPCxvPP1wtMxgdIV3l5n+XZ5E9mgoXU79w7yTWpm2XzJsISxQ==
+ionicons@^8.0.13, ionicons@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-8.1.0.tgz#b800f612ea846cc6983bd78a18e3f05ccf7efaa5"
+  integrity sha512-XSM2gYWTXxSYTwjmKWAoy4yR7AbAFDjpc5ZIivAiGXskM0fe5CdMPfs6InQRUcrYtVb2WZ/0HQ1/jeh3JW78SA==
   dependencies:
-    "@stencil/core" "^4.35.3"
+    "@stencil/core" "^4.43.5"
 
 ip-address@10.0.1:
   version "10.0.1"
@@ -5365,11 +5300,6 @@ is-regex@^1.2.1:
     gopd "^1.2.0"
     has-tostringtag "^1.0.2"
     hasown "^2.0.2"
-
-is-unicode-supported@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/is-unicode-supported/-/is-unicode-supported-1.3.0.tgz#d824984b616c292a2e198207d4a609983842f714"
-  integrity sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ==
 
 is-unicode-supported@^2.0.0, is-unicode-supported@^2.1.0:
   version "2.1.0"
@@ -5841,14 +5771,6 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
-log-symbols@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-6.0.0.tgz#bb95e5f05322651cac30c0feb6404f9f2a8a9439"
-  integrity sha512-i24m8rpwhmPIS4zscNzK6MSEhk0DUWa/8iYQWxhffV8jkI4Phvs3F+quL5xvS0gdQR0FyTCMMH33Y78dDTzzIw==
-  dependencies:
-    chalk "^5.3.0"
-    is-unicode-supported "^1.3.0"
-
 log-symbols@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-7.0.1.tgz#f52e68037d96f589fc572ff2193dc424d48c195b"
@@ -5891,13 +5813,6 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
-
-magic-string@0.30.17:
-  version "0.30.17"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.17.tgz#450a449673d2460e5bbcfba9a61916a1714c7453"
-  integrity sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.5.0"
 
 magic-string@1.0.0:
   version "1.0.0"
@@ -6353,21 +6268,6 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-ora@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-8.2.0.tgz#8fbbb7151afe33b540dd153f171ffa8bd38e9861"
-  integrity sha512-weP+BZ8MVNnlCm8c0Qdc1WSWq4Qn7I+9CJGm7Qali6g44e/PUzbjNqJX5NJ9ljlNMosfJvg1fKEGILklK9cwnw==
-  dependencies:
-    chalk "^5.3.0"
-    cli-cursor "^5.0.0"
-    cli-spinners "^2.9.2"
-    is-interactive "^2.0.0"
-    is-unicode-supported "^2.0.0"
-    log-symbols "^6.0.0"
-    stdin-discarder "^0.2.2"
-    string-width "^7.2.0"
-    strip-ansi "^7.1.0"
-
 ora@9.4.1:
   version "9.4.1"
   resolved "https://registry.yarnpkg.com/ora/-/ora-9.4.1.tgz#ba7644f3c7c92a8f830fbc48ca770b9eaf4bc55c"
@@ -6535,11 +6435,6 @@ picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
-
-picomatch@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
-  integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
 
 picomatch@4.0.5:
   version "4.0.5"
@@ -7446,11 +7341,6 @@ statuses@^2.0.1, statuses@^2.0.2, statuses@~2.0.1, statuses@~2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.2.tgz#8f75eecef765b5e1cfcdc080da59409ed424e382"
   integrity sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==
-
-stdin-discarder@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/stdin-discarder/-/stdin-discarder-0.2.2.tgz#390037f44c4ae1a1ae535c5fe38dc3aba8d997be"
-  integrity sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==
 
 stdin-discarder@^0.3.2:
   version "0.3.2"
