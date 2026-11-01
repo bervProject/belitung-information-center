@@ -1430,20 +1430,20 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-2.16.0.tgz#130eff69a232f29fb4e2b3f8ebbb0b3e0adf5a36"
   integrity sha512-FWa0sPlqYGJgpTs6OxBRcL/AW4JT0OIO+W1ajerluoTVh8CV0B7XM1qsNCRgnkSCkRCgOICKHRQlY17jrsm0+Q==
 
-"@capacitor/android@^8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-8.5.2.tgz#e774465cd42c321f643bb365ffe50b89697ef2bb"
-  integrity sha512-rtiaz78egCcS+vs29wkWCL3C+RhazKMSygXcjutwWP8NmO6r5UBxOvGf3Wjz5+ahobyQ723tn9gCePwRwcNDZQ==
+"@capacitor/android@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-8.6.0.tgz#d8c9642c5929ee783f32156a02d13c9b2d166290"
+  integrity sha512-6IJS0TCfV/F/8+324CCwYd3xL6r+TH0W7zzaxYzPz9IV3YWCNvsZDuCCPHUIBC5iASb9od827ddSJ6rz+9Pu1Q==
 
-"@capacitor/app@^8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-8.1.1.tgz#af00649d0c7799ec83469b1c4ada921f9933a77e"
-  integrity sha512-xM2ZTX5jK60tFtmjsmJv+Cdj1Qsb6NcavkqmdEnCPQBeya9oKhamZJxYOnQNj1ZvcJM7sWfG6BEtSLx42pisbA==
+"@capacitor/app@^8.1.2":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-8.1.2.tgz#3f39b7b02d2277b3ef6f659747d0d6e56b60a1cc"
+  integrity sha512-uKBlsrXH0IdvUn69e/KKYbZ32A06pcrUdG8LWuZ/6y33YMXZXLEEdNSwl+jKS/SrsTWqnePs8EqSWaiQM3mUGA==
 
-"@capacitor/cli@^8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-8.5.2.tgz#3508c35adb52eef7d54d3cf95bd3636c6d4aab7f"
-  integrity sha512-O2kpA5ZPJUAmliDCcmpMf8xnJwMezxlFPUrlyOAjbL3U9MFNY3l4ZpPI/UXwvyPmR8ETcVF9pFr+VdWq61rqTQ==
+"@capacitor/cli@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-8.6.0.tgz#0a715d7a8c68d3f57e38c473a2aaa26f731484a6"
+  integrity sha512-TyLo1v6AqK39inlB5Edm7eFc+dyk4r+Du5bbyD+cRm/u/3b+LkNIeyp5wwYp3ToO3rWiLs4T/PabXGADO0Rlxg==
   dependencies:
     "@ionic/cli-framework-output" "^2.2.8"
     "@ionic/utils-subprocess" "^3.0.1"
@@ -1461,13 +1461,13 @@
     semver "^7.6.3"
     tar "^7.5.3"
     tslib "^2.8.1"
-    xcode "^3.0.1"
+    xcode "^4.0.0"
     xml2js "^0.6.2"
 
-"@capacitor/core@^8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-8.5.2.tgz#3e347a4d5a0c341995d0a26d4fdce156bf65b330"
-  integrity sha512-agnQbGdhGw/KZFuLf7H9SY2o+oE7upkr/WPQsYaokXP6f9chaE8iVmbKkfN6SVl4w3pmz7oZ3Ur1hbkmy1hx+w==
+"@capacitor/core@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-8.6.0.tgz#df2f0601c368587261d35afb390dbfb2638dd779"
+  integrity sha512-9F2zzuGYTJu+wqmQSEmqnFBfGrhC/njjMCfmxbvg9mq8xJT4wNh5pxbMFZxvW/yDhYJWPEBFQxeqzfo1gKrvxg==
   dependencies:
     tslib "^2.1.0"
 
@@ -1476,25 +1476,25 @@
   resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-8.0.2.tgz#821d2687b81ff8855327273314d0d146476f069f"
   integrity sha512-c2hZzRR5Fk1tbTvhG1jhh2XBAf3EhnIerMIb2sl7Mt41Gxx1fhBJFDa0/BI1IbY4loVepyyuqNC9820/GZuoWQ==
 
-"@capacitor/ios@^8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-8.5.2.tgz#05f805fc6e4b0478156212f06a30862abae67a67"
-  integrity sha512-eOT2S67AfTFG7KN0T3oxwAajrJz4rSye+ODfvChiwrk0F/+kWufFM1qU6cDjGJUOfwdAoeuEpZyWHSwZlu4GFg==
+"@capacitor/ios@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-8.6.0.tgz#9eb3bc1e946bd58b89c9f44529a48ec57721ea90"
+  integrity sha512-Y2PE4zoBqMrSTWoVMJmX2byBznjn6egmATzoEUJiGVbVubkNpAvkF/tl0SBKDyP67ngyedTx1tQq5IGYIhby1A==
 
-"@capacitor/keyboard@^8.0.5":
-  version "8.0.5"
-  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-8.0.5.tgz#7ec60f27749b04aeba16f7ec232e7947f4e59f94"
-  integrity sha512-oFXygC4eKYA5l2MdpTR06L2M/4x6e2SLD5yS1T9+UBDKTkzyvhWKEhbYLUaTIBPpLKqlfGudJw1X73S1H9eUzQ==
+"@capacitor/keyboard@^8.0.6":
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/@capacitor/keyboard/-/keyboard-8.0.6.tgz#361304068b7319ead091a83b846861deb2fb3639"
+  integrity sha512-Bbe+9V0qaT6dzEFJEK7BUWR01l2+vZE8FM5ITF/WgKtx+G6eGZ6d5+YiSMRJBAK0VGjdO59v8yiQ10Doa5KyvQ==
 
 "@capacitor/splash-screen@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@capacitor/splash-screen/-/splash-screen-8.0.2.tgz#52b5fac8a1178167f344f1330b6f607426a56b39"
   integrity sha512-0C6rYScr13WfAE9nPl4ScOQynmjFv9NT3Th+RZkD4ezYHmER6mcl1/lDYsv7jg3Rj3FOvLrlTlmNkUrr83kZzQ==
 
-"@capacitor/status-bar@^8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@capacitor/status-bar/-/status-bar-8.0.3.tgz#b638524f021cb3147e6f36ad55e7e5171aee4fd6"
-  integrity sha512-csSpfNeN49Hx9JaQBSJEIiEbOLtXg3kcc2IpScq2fu5L520h3AWEvsxoH8Srk1jxfRKepaJ4S4sqSC3foI4AgA==
+"@capacitor/status-bar@^8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/status-bar/-/status-bar-8.0.4.tgz#ce93e52c2feba9ef218c7bd3e839aa447c183269"
+  integrity sha512-ZMzBUyHBzwDUxcHadEhvOvmoPmMQGMZgaMRJu8ohELeI6IaxoVH9ZhdF/OHnY3/yykv3Glev8Tnbh4aZY/0B0w==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -7212,7 +7212,7 @@ signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-plist@^1.1.0:
+simple-plist@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/simple-plist/-/simple-plist-1.3.1.tgz#16e1d8f62c6c9b691b8383127663d834112fb017"
   integrity sha512-iMSw5i0XseMnrhtIzRb7XpQEXepa9xhWxGUojHBL43SIpQuDQkh3Wpy67ZbDzZVr6EKxvwVChnVpdl8hEVLDiw==
@@ -7699,11 +7699,6 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
-  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
-
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
@@ -7938,13 +7933,12 @@ wsl-utils@^1.0.0:
     is-wsl "^3.1.0"
     powershell-utils "^0.2.0"
 
-xcode@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/xcode/-/xcode-3.0.1.tgz#3efb62aac641ab2c702458f9a0302696146aa53c"
-  integrity sha512-kCz5k7J7XbJtjABOvkc5lJmkiDh8VhjVCGNiqdKCscmVpdVUpEAyXv1xmCLkQJ5dsHqx3IPO4XW+NTDhU/fatA==
+xcode@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/xcode/-/xcode-4.0.0.tgz#cbcd6125a712d32478b27ee730afc4db4122b902"
+  integrity sha512-dDaoWzc9EP2fp9FS9PVZUkyvFxY4y1TOV9pcKaKLk++Ei/qb97XDFEVP7GnW7Osii/TzVABJ0jq2F+9/lq0TVA==
   dependencies:
-    simple-plist "^1.1.0"
-    uuid "^7.0.3"
+    simple-plist "^1.3.1"
 
 xml2js@^0.6.2:
   version "0.6.2"
