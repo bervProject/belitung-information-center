@@ -3230,10 +3230,10 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.5.tgz#5b749ab2b16ba113423feb1a64a95dcd30398472"
   integrity sha512-r8Tayk8HJnX0FztbZN7oVqGccWgw98T/0neJphO91KkmOzug1KkofZURD4UaD5uH8AqcFLfdPErnBod0u71/qg==
 
-"@types/jasmine@*", "@types/jasmine@~6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-6.0.0.tgz#85dc83ea9bcb1d047486da447a6a0ebe241f589c"
-  integrity sha512-18lgGsLmEh3VJk9eZ5wAjTISxdqzl6YOwu8UdMpolajN57QOCNbl+AbHUd+Yu9ItrsFdB+c8LSZSGNg8nHaguw==
+"@types/jasmine@*", "@types/jasmine@~7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-7.0.0.tgz#ba760841e7d9a2111ed9ffbc134c95b60bd5e60a"
+  integrity sha512-6yNx9BsBSKiXO2yqLXs/GZDuD58Gkn6Ty26254FFOuw6B4XU5Xq8mAR0xFy8zHgAhqQd++y41fSJ8BdwrWXhqQ==
 
 "@types/jasminewd2@^2.0.13":
   version "2.0.13"
@@ -5359,10 +5359,10 @@ jasmine-core@^4.1.0:
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-4.6.1.tgz#5ebb8afa07282078f8d7b15871737a83b74e58f2"
   integrity sha512-VYz/BjjmC3klLJlLwA4Kw8ytk0zDSmbbDLNs794VnWmkcCB7I9aAL/D48VNQtmITyPvea2C3jdUMfc3kAoy0PQ==
 
-jasmine-core@~6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-6.3.0.tgz#ff8e4e771a4c8e7bebd0966bc4625f000f78fa84"
-  integrity sha512-eMm5qBovNjNoGOcgE/W207+wrcK5zrQv0Rg/rWGboUJUmZp0dFCpHTyjpuDAfCwRCqg7f9U2q2jtv/aUuzdCQg==
+jasmine-core@~7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-7.0.2.tgz#afee5b1edd630c714b3b064193756d28f201a317"
+  integrity sha512-YMVijt84KPQQFm1db1AQAxTXfq0k3wU06OkepLViljURFqiRQ7EYYX2eUAshhUv9fA9t1E2N65GrdqvupA9VPQ==
 
 jasmine-spec-reporter@~7.0.0:
   version "7.0.0"
@@ -5466,10 +5466,10 @@ karma-coverage-istanbul-reporter@^3.0.3:
     istanbul-reports "^3.0.2"
     minimatch "^3.0.4"
 
-karma-jasmine-html-reporter@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.2.0.tgz#b3a9f2aee9b37910b7c84b874a932b508bf636da"
-  integrity sha512-J0laEC43Oy2RdR5V5R3bqmdo7yRIYySq6XHKbA+e5iSAgLjhR1oICLGeSREPlJXpeyNcdJf3J17YcdhD0mRssQ==
+karma-jasmine-html-reporter@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.3.0.tgz#c3408c5b8127be74de1c16714b30ece8ac16ed5f"
+  integrity sha512-iFDjVpcWHnupRoJfnjuAeNF68sAGk+7RfceCzm33HHYNV6OgBa6EC1nPgJUFM+tVDHLlQ5NhgcTKz7AbdrV3AQ==
 
 karma-jasmine@~5.1.0:
   version "5.1.0"
